@@ -1,0 +1,43 @@
+{
+  "name": "adaptive-trading-game-lab",
+  "version": "1.0.0",
+  "description": "A multi-agent strategy simulator where trading agents compete in a market with hidden structure (trend/mean-reversion/chop), under costs and position limits",
+  "main": "dist/sim.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smulbean/TradingSim.git"
+  },
+  "keywords": [
+    "trading",
+    "simulation",
+    "multi-agent",
+    "market-simulator",
+    "regime-switching",
+    "quantitative-finance",
+    "research"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smulbean/TradingSim/issues"
+  },
+  "homepage": "https://github.com/smulbean/TradingSim#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.8"
+  },
+  "scripts": {
+    "build": "tsc",
+    "sim": "tsc && node dist/sim.js",
+    "batch": "tsc && node dist/batch.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "ui": "cd ui && npm run dev",
+    "ui:build": "cd ui && npm run build"
+  }
+}
