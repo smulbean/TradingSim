@@ -1,0 +1,3915 @@
+{
+  "meta": {
+    "experiment": "experiment2_market_dominance",
+    "note": "Worlds are constructed by tuning market parameters (trendDrift/meanRevertK/noise) because the market schema has no explicit regime probabilities.",
+    "controls": {
+      "T": 5000,
+      "impact": 0.0005,
+      "hitProb": 0.15,
+      "feePerUnit": 0,
+      "slippagePerUnit": 0,
+      "evolution": {
+        "enabled": false
+      }
+    }
+  },
+  "data": [
+    {
+      "world": "TREND",
+      "worldMarket": {
+        "switchProb": 0.0025,
+        "trendDrift": 0.02,
+        "meanRevertK": 0.02,
+        "fairNoiseStd": 0.02,
+        "microNoiseStd": 0.02
+      },
+      "seeds": 30,
+      "perSeed": [
+        {
+          "seed": 1,
+          "agents": {
+            "noise-1": {
+              "pnl": 111.85704931659893,
+              "sharpeLike": 2.021052911565509,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.046661871108494
+            },
+            "noise-2": {
+              "pnl": 749.1867157167762,
+              "sharpeLike": 15.250240143925602,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.3381891459918953
+            },
+            "noise-3": {
+              "pnl": 718.5226024985241,
+              "sharpeLike": 13.807172926547063,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.9857538705321198
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 34.36857682334448,
+              "sharpeLike": 0.7797069631700154,
+              "turnover": 1416,
+              "maxDrawdownPct": 2.7402442506019797
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "agents": {
+            "noise-1": {
+              "pnl": 398.18832148129695,
+              "sharpeLike": 5.159106479481875,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.1204615218633287
+            },
+            "noise-2": {
+              "pnl": 501.2706946367907,
+              "sharpeLike": 7.40644456704071,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.860079417881639
+            },
+            "noise-3": {
+              "pnl": 138.76525130420487,
+              "sharpeLike": 2.1760737737686764,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.157086693611376
+            },
+            "momentum-1": {
+              "pnl": 656.693183709931,
+              "sharpeLike": 11.371114003040613,
+              "turnover": 96,
+              "maxDrawdownPct": 0.2675771132234849
+            },
+            "meanrev-1": {
+              "pnl": -559.4114704431395,
+              "sharpeLike": -6.79367380300694,
+              "turnover": 30,
+              "maxDrawdownPct": 5.7624350823163875
+            },
+            "marketmaker-1": {
+              "pnl": 238.76998887756054,
+              "sharpeLike": 3.7526219650350026,
+              "turnover": 1458,
+              "maxDrawdownPct": 4.075445405260131
+            }
+          }
+        },
+        {
+          "seed": 3,
+          "agents": {
+            "noise-1": {
+              "pnl": -676.7127622619264,
+              "sharpeLike": -8.023240725545282,
+              "turnover": 3534,
+              "maxDrawdownPct": 9.578330950603728
+            },
+            "noise-2": {
+              "pnl": 126.94405257959079,
+              "sharpeLike": 2.2204549834773544,
+              "turnover": 3676,
+              "maxDrawdownPct": 3.169893778321029
+            },
+            "noise-3": {
+              "pnl": -324.8887784645394,
+              "sharpeLike": -5.060032029707743,
+              "turnover": 3695,
+              "maxDrawdownPct": 7.0215625878574395
+            },
+            "momentum-1": {
+              "pnl": 462.35429709838536,
+              "sharpeLike": 8.98757557144856,
+              "turnover": 60,
+              "maxDrawdownPct": 0.11075874983993358
+            },
+            "meanrev-1": {
+              "pnl": -108.66174285677516,
+              "sharpeLike": -1.3267629375897296,
+              "turnover": 30,
+              "maxDrawdownPct": 5.48077576336429
+            },
+            "marketmaker-1": {
+              "pnl": -328.62296342282025,
+              "sharpeLike": -7.447295544198539,
+              "turnover": 1390,
+              "maxDrawdownPct": 3.9399589270217925
+            }
+          }
+        },
+        {
+          "seed": 4,
+          "agents": {
+            "noise-1": {
+              "pnl": 1956.8696574194164,
+              "sharpeLike": 11.97117747471001,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.8731520891944817
+            },
+            "noise-2": {
+              "pnl": 946.6259355820348,
+              "sharpeLike": 13.282767361549778,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.1372133890025606
+            },
+            "noise-3": {
+              "pnl": 221.40325727692107,
+              "sharpeLike": 3.5002348328275095,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.816721598441268
+            },
+            "momentum-1": {
+              "pnl": 1399.3668383576896,
+              "sharpeLike": 9.97078763710004,
+              "turnover": 57,
+              "maxDrawdownPct": 0.04440983067529827
+            },
+            "meanrev-1": {
+              "pnl": -1458.3972426159417,
+              "sharpeLike": -9.643721333478418,
+              "turnover": 30,
+              "maxDrawdownPct": 15.05273177819723
+            },
+            "marketmaker-1": {
+              "pnl": -819.470888752845,
+              "sharpeLike": -4.852975221729808,
+              "turnover": 1446,
+              "maxDrawdownPct": 14.689673280209043
+            }
+          }
+        },
+        {
+          "seed": 5,
+          "agents": {
+            "noise-1": {
+              "pnl": 142.39557187841638,
+              "sharpeLike": 1.924358005484492,
+              "turnover": 3534,
+              "maxDrawdownPct": 5.5253526894450955
+            },
+            "noise-2": {
+              "pnl": -88.36615428158984,
+              "sharpeLike": -1.1389650375649654,
+              "turnover": 3676,
+              "maxDrawdownPct": 4.851814814310044
+            },
+            "noise-3": {
+              "pnl": -309.2632544882308,
+              "sharpeLike": -4.282575148162373,
+              "turnover": 3695,
+              "maxDrawdownPct": 4.670277028104862
+            },
+            "momentum-1": {
+              "pnl": 515.7039819602887,
+              "sharpeLike": 12.26164102053256,
+              "turnover": 100,
+              "maxDrawdownPct": 0.2201067899830151
+            },
+            "meanrev-1": {
+              "pnl": -146.06980963644673,
+              "sharpeLike": -1.4661934197853632,
+              "turnover": 30,
+              "maxDrawdownPct": 5.482529438377026
+            },
+            "marketmaker-1": {
+              "pnl": 107.66476776606942,
+              "sharpeLike": 2.0260795104756144,
+              "turnover": 1394,
+              "maxDrawdownPct": 2.447256016443333
+            }
+          }
+        },
+        {
+          "seed": 6,
+          "agents": {
+            "noise-1": {
+              "pnl": 107.96595681482722,
+              "sharpeLike": 1.4146521736007247,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.583535887671873
+            },
+            "noise-2": {
+              "pnl": 147.16577512898948,
+              "sharpeLike": 2.785454479089715,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.921561318910361
+            },
+            "noise-3": {
+              "pnl": 60.94631007384487,
+              "sharpeLike": 0.998978583157341,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.9542758313863122
+            },
+            "momentum-1": {
+              "pnl": 407.31142273288424,
+              "sharpeLike": 11.430547164372653,
+              "turnover": 88,
+              "maxDrawdownPct": 0.17694061626637225
+            },
+            "meanrev-1": {
+              "pnl": -324.5221638755429,
+              "sharpeLike": -3.80864704142713,
+              "turnover": 30,
+              "maxDrawdownPct": 4.144608827938027
+            },
+            "marketmaker-1": {
+              "pnl": 76.63870770649191,
+              "sharpeLike": 1.1831989819567084,
+              "turnover": 1404,
+              "maxDrawdownPct": 3.240174087731558
+            }
+          }
+        },
+        {
+          "seed": 7,
+          "agents": {
+            "noise-1": {
+              "pnl": 13.85149213499426,
+              "sharpeLike": 0.26346183520780303,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.5030543310436602
+            },
+            "noise-2": {
+              "pnl": 61.399075201037704,
+              "sharpeLike": 1.266883585656325,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.0168417047438227
+            },
+            "noise-3": {
+              "pnl": 14.895059630756805,
+              "sharpeLike": 0.2906716562008556,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.389279757828942
+            },
+            "momentum-1": {
+              "pnl": 41.920695321554376,
+              "sharpeLike": 4.879830833459821,
+              "turnover": 18,
+              "maxDrawdownPct": 0.09066342821451474
+            },
+            "meanrev-1": {
+              "pnl": -115.32838786393404,
+              "sharpeLike": -1.939754104958522,
+              "turnover": 30,
+              "maxDrawdownPct": 1.2725638395882561
+            },
+            "marketmaker-1": {
+              "pnl": -3.482599127548383,
+              "sharpeLike": -0.10942312312584447,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.6300597428183939
+            }
+          }
+        },
+        {
+          "seed": 8,
+          "agents": {
+            "noise-1": {
+              "pnl": -460.65720656353733,
+              "sharpeLike": -6.284349719815643,
+              "turnover": 3534,
+              "maxDrawdownPct": 6.676047366858065
+            },
+            "noise-2": {
+              "pnl": 66.90578499584626,
+              "sharpeLike": 1.3108004529651553,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.563075424959272
+            },
+            "noise-3": {
+              "pnl": -408.18723063694233,
+              "sharpeLike": -6.348852841574842,
+              "turnover": 3695,
+              "maxDrawdownPct": 6.903913186007047
+            },
+            "momentum-1": {
+              "pnl": 366.00414725828705,
+              "sharpeLike": 8.307004635488473,
+              "turnover": 55,
+              "maxDrawdownPct": 0.3468695282692673
+            },
+            "meanrev-1": {
+              "pnl": 21.54368838225855,
+              "sharpeLike": 0.28527234672879825,
+              "turnover": 30,
+              "maxDrawdownPct": 4.757210486891126
+            },
+            "marketmaker-1": {
+              "pnl": 188.93062438897869,
+              "sharpeLike": 3.5113398742658517,
+              "turnover": 1428,
+              "maxDrawdownPct": 3.2495320847705798
+            }
+          }
+        },
+        {
+          "seed": 9,
+          "agents": {
+            "noise-1": {
+              "pnl": 1202.8567528441017,
+              "sharpeLike": 11.82796837045849,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.440958516948177
+            },
+            "noise-2": {
+              "pnl": -264.95558632956454,
+              "sharpeLike": -4.183129289059125,
+              "turnover": 3676,
+              "maxDrawdownPct": 4.918035817553595
+            },
+            "noise-3": {
+              "pnl": -262.0165974661595,
+              "sharpeLike": -4.742775291032503,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.260430091158578
+            },
+            "momentum-1": {
+              "pnl": 792.3786163830755,
+              "sharpeLike": 10.826047935905958,
+              "turnover": 96,
+              "maxDrawdownPct": 0.38461481745222326
+            },
+            "meanrev-1": {
+              "pnl": -330.4298496308147,
+              "sharpeLike": -2.813445696302044,
+              "turnover": 30,
+              "maxDrawdownPct": 8.640309257415119
+            },
+            "marketmaker-1": {
+              "pnl": -118.43963323874596,
+              "sharpeLike": -1.3178669665641702,
+              "turnover": 1448,
+              "maxDrawdownPct": 5.36099286680471
+            }
+          }
+        },
+        {
+          "seed": 10,
+          "agents": {
+            "noise-1": {
+              "pnl": -164.3330496438266,
+              "sharpeLike": -2.26497764011022,
+              "turnover": 3534,
+              "maxDrawdownPct": 5.225043906425047
+            },
+            "noise-2": {
+              "pnl": -200.7071419640415,
+              "sharpeLike": -3.182399862825504,
+              "turnover": 3676,
+              "maxDrawdownPct": 4.006443692991184
+            },
+            "noise-3": {
+              "pnl": -243.24551795765183,
+              "sharpeLike": -3.6120691905581963,
+              "turnover": 3695,
+              "maxDrawdownPct": 4.42159252146636
+            },
+            "momentum-1": {
+              "pnl": 388.6682966749613,
+              "sharpeLike": 8.653170696514184,
+              "turnover": 72,
+              "maxDrawdownPct": 0.29058932898902307
+            },
+            "meanrev-1": {
+              "pnl": 180.24952598899836,
+              "sharpeLike": 2.05820813373613,
+              "turnover": 30,
+              "maxDrawdownPct": 5.217131547350659
+            },
+            "marketmaker-1": {
+              "pnl": 49.67485756559108,
+              "sharpeLike": 0.594301686819083,
+              "turnover": 1308,
+              "maxDrawdownPct": 4.876136060602251
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "agents": {
+            "noise-1": {
+              "pnl": 417.17515046677727,
+              "sharpeLike": 5.9038917523154275,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.5927398084612607
+            },
+            "noise-2": {
+              "pnl": 32.94570637709694,
+              "sharpeLike": 0.6942290735132285,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.8332574649400382
+            },
+            "noise-3": {
+              "pnl": 399.51590539743665,
+              "sharpeLike": 7.865535743235921,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.37479937334705027
+            },
+            "momentum-1": {
+              "pnl": 337.9903007922003,
+              "sharpeLike": 8.620197154619914,
+              "turnover": 50,
+              "maxDrawdownPct": 0.18956124685354958
+            },
+            "meanrev-1": {
+              "pnl": -441.21789702078604,
+              "sharpeLike": -7.099288906397751,
+              "turnover": 30,
+              "maxDrawdownPct": 4.5605512188745525
+            },
+            "marketmaker-1": {
+              "pnl": 190.0779620328758,
+              "sharpeLike": 2.9706160385318845,
+              "turnover": 1358,
+              "maxDrawdownPct": 2.219839546785616
+            }
+          }
+        },
+        {
+          "seed": 12,
+          "agents": {
+            "noise-1": {
+              "pnl": 240.81865673524953,
+              "sharpeLike": 2.4510348541698557,
+              "turnover": 3534,
+              "maxDrawdownPct": 8.103909424297326
+            },
+            "noise-2": {
+              "pnl": 408.848528617018,
+              "sharpeLike": 4.953789133496621,
+              "turnover": 3676,
+              "maxDrawdownPct": 5.0581711741451
+            },
+            "noise-3": {
+              "pnl": -1208.0120962379297,
+              "sharpeLike": -9.87893387160445,
+              "turnover": 3695,
+              "maxDrawdownPct": 12.093476901334562
+            },
+            "momentum-1": {
+              "pnl": 1185.497382473739,
+              "sharpeLike": 12.757325897401953,
+              "turnover": 117,
+              "maxDrawdownPct": 0.2627418677836433
+            },
+            "meanrev-1": {
+              "pnl": -861.811423692634,
+              "sharpeLike": -7.148420823037196,
+              "turnover": 30,
+              "maxDrawdownPct": 8.723021076214591
+            },
+            "marketmaker-1": {
+              "pnl": 796.5786797547753,
+              "sharpeLike": 13.123392305761811,
+              "turnover": 1464,
+              "maxDrawdownPct": 2.0080134678285013
+            }
+          }
+        },
+        {
+          "seed": 13,
+          "agents": {
+            "noise-1": {
+              "pnl": -57.644119214488455,
+              "sharpeLike": -0.8453265390488499,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.368938344659626
+            },
+            "noise-2": {
+              "pnl": 202.19099653377998,
+              "sharpeLike": 3.8021272439536067,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.3625291638611572
+            },
+            "noise-3": {
+              "pnl": -272.20609685333693,
+              "sharpeLike": -4.080432996611294,
+              "turnover": 3695,
+              "maxDrawdownPct": 5.104193145135367
+            },
+            "momentum-1": {
+              "pnl": 409.9000731398846,
+              "sharpeLike": 8.878397916419575,
+              "turnover": 99,
+              "maxDrawdownPct": 0.19494977685739176
+            },
+            "meanrev-1": {
+              "pnl": -43.44142615360761,
+              "sharpeLike": -0.43769035703740533,
+              "turnover": 30,
+              "maxDrawdownPct": 6.831060323844544
+            },
+            "marketmaker-1": {
+              "pnl": 107.76226596136439,
+              "sharpeLike": 2.1077172822041734,
+              "turnover": 1510,
+              "maxDrawdownPct": 2.12712607957851
+            }
+          }
+        },
+        {
+          "seed": 14,
+          "agents": {
+            "noise-1": {
+              "pnl": 984.8876496789107,
+              "sharpeLike": 12.936872164455632,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.887733715610085
+            },
+            "noise-2": {
+              "pnl": -543.938864652262,
+              "sharpeLike": -5.294086937250865,
+              "turnover": 3676,
+              "maxDrawdownPct": 8.938572457630475
+            },
+            "noise-3": {
+              "pnl": -551.7713687420237,
+              "sharpeLike": -8.479790798652056,
+              "turnover": 3695,
+              "maxDrawdownPct": 6.375377978593673
+            },
+            "momentum-1": {
+              "pnl": 1033.938780693963,
+              "sharpeLike": 9.79802178123964,
+              "turnover": 58,
+              "maxDrawdownPct": 0.08260514794945566
+            },
+            "meanrev-1": {
+              "pnl": -1023.8060378632308,
+              "sharpeLike": -8.783421838029474,
+              "turnover": 30,
+              "maxDrawdownPct": 11.42788122130878
+            },
+            "marketmaker-1": {
+              "pnl": -611.135752528,
+              "sharpeLike": -4.375551255731877,
+              "turnover": 1418,
+              "maxDrawdownPct": 11.859189071913882
+            }
+          }
+        },
+        {
+          "seed": 15,
+          "agents": {
+            "noise-1": {
+              "pnl": -257.94945702585574,
+              "sharpeLike": -3.988107489146555,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.7472020827353525
+            },
+            "noise-2": {
+              "pnl": -240.36913716778508,
+              "sharpeLike": -5.133368171834082,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.454142664141874
+            },
+            "noise-3": {
+              "pnl": 159.76106501035247,
+              "sharpeLike": 2.3911541419645355,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.68532430625135
+            },
+            "momentum-1": {
+              "pnl": 251.95557481601827,
+              "sharpeLike": 9.249277234188675,
+              "turnover": 49,
+              "maxDrawdownPct": 0.09955942079747826
+            },
+            "meanrev-1": {
+              "pnl": -348.71719896254217,
+              "sharpeLike": -4.68130258188141,
+              "turnover": 30,
+              "maxDrawdownPct": 3.597801589224746
+            },
+            "marketmaker-1": {
+              "pnl": 345.1048299225622,
+              "sharpeLike": 5.7657115494686835,
+              "turnover": 1460,
+              "maxDrawdownPct": 1.0623537881909297
+            }
+          }
+        },
+        {
+          "seed": 16,
+          "agents": {
+            "noise-1": {
+              "pnl": -772.4429396462529,
+              "sharpeLike": -11.54697340142024,
+              "turnover": 3534,
+              "maxDrawdownPct": 8.862023773514336
+            },
+            "noise-2": {
+              "pnl": -108.89899697663168,
+              "sharpeLike": -1.8830047776212073,
+              "turnover": 3676,
+              "maxDrawdownPct": 5.052162210497695
+            },
+            "noise-3": {
+              "pnl": 460.3987057761369,
+              "sharpeLike": 7.301722802196521,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.8796605146537113
+            },
+            "momentum-1": {
+              "pnl": 244.40764382122507,
+              "sharpeLike": 7.936056367795942,
+              "turnover": 47,
+              "maxDrawdownPct": 0.34425245430114026
+            },
+            "meanrev-1": {
+              "pnl": 405.5628204963359,
+              "sharpeLike": 5.22957998074732,
+              "turnover": 30,
+              "maxDrawdownPct": 4.028723453461953
+            },
+            "marketmaker-1": {
+              "pnl": 455.05228781440746,
+              "sharpeLike": 9.434020162698172,
+              "turnover": 1502,
+              "maxDrawdownPct": 0.6692887301251625
+            }
+          }
+        },
+        {
+          "seed": 17,
+          "agents": {
+            "noise-1": {
+              "pnl": -733.1937504607758,
+              "sharpeLike": -13.6664454531146,
+              "turnover": 3534,
+              "maxDrawdownPct": 7.409080743925335
+            },
+            "noise-2": {
+              "pnl": 545.9897681714428,
+              "sharpeLike": 11.102667060079611,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.7075601135817937
+            },
+            "noise-3": {
+              "pnl": 799.6707246380975,
+              "sharpeLike": 14.700881421667285,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.0671307476988476
+            },
+            "momentum-1": {
+              "pnl": 46.58743926510397,
+              "sharpeLike": 4.645578895160341,
+              "turnover": 23,
+              "maxDrawdownPct": 0.3024141491783209
+            },
+            "meanrev-1": {
+              "pnl": 691.1947421626246,
+              "sharpeLike": 9.96672429388929,
+              "turnover": 30,
+              "maxDrawdownPct": 1.7638495064817108
+            },
+            "marketmaker-1": {
+              "pnl": -570.7236792709227,
+              "sharpeLike": -11.695648754504894,
+              "turnover": 1450,
+              "maxDrawdownPct": 5.70838177565427
+            }
+          }
+        },
+        {
+          "seed": 18,
+          "agents": {
+            "noise-1": {
+              "pnl": 1105.8630779496107,
+              "sharpeLike": 13.188433292979978,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.694712981757354
+            },
+            "noise-2": {
+              "pnl": 217.00213023319884,
+              "sharpeLike": 3.0039559639599718,
+              "turnover": 3676,
+              "maxDrawdownPct": 4.131450538441233
+            },
+            "noise-3": {
+              "pnl": -551.9892355842094,
+              "sharpeLike": -5.765949998163571,
+              "turnover": 3695,
+              "maxDrawdownPct": 8.406306507996254
+            },
+            "momentum-1": {
+              "pnl": 1147.4156452568895,
+              "sharpeLike": 9.678947735579067,
+              "turnover": 58,
+              "maxDrawdownPct": 0.24237297342164255
+            },
+            "meanrev-1": {
+              "pnl": -888.7881225018318,
+              "sharpeLike": -6.625426408926583,
+              "turnover": 30,
+              "maxDrawdownPct": 12.768335715318699
+            },
+            "marketmaker-1": {
+              "pnl": -883.5688673873283,
+              "sharpeLike": -14.92800108740568,
+              "turnover": 1420,
+              "maxDrawdownPct": 8.86811708882192
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "agents": {
+            "noise-1": {
+              "pnl": 195.27496879442333,
+              "sharpeLike": 2.7961332996399513,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.6290800528703304
+            },
+            "noise-2": {
+              "pnl": -88.38580378298502,
+              "sharpeLike": -1.8863463730905534,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.8363287483523054
+            },
+            "noise-3": {
+              "pnl": 201.89368573270258,
+              "sharpeLike": 4.110410626173533,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.569389828594385
+            },
+            "momentum-1": {
+              "pnl": 267.56406917644745,
+              "sharpeLike": 8.762803830973386,
+              "turnover": 45,
+              "maxDrawdownPct": 0.054559193985473806
+            },
+            "meanrev-1": {
+              "pnl": -332.13184182509394,
+              "sharpeLike": -5.8673804962604486,
+              "turnover": 30,
+              "maxDrawdownPct": 3.81570845222308
+            },
+            "marketmaker-1": {
+              "pnl": -46.57885672161501,
+              "sharpeLike": -0.791225745136063,
+              "turnover": 1374,
+              "maxDrawdownPct": 3.9229838004611404
+            }
+          }
+        },
+        {
+          "seed": 20,
+          "agents": {
+            "noise-1": {
+              "pnl": -19.220853051929225,
+              "sharpeLike": -0.328142602727348,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.090388864010394
+            },
+            "noise-2": {
+              "pnl": 178.13818239650755,
+              "sharpeLike": 3.6220821622124637,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.8710821610287517
+            },
+            "noise-3": {
+              "pnl": 148.4045476866213,
+              "sharpeLike": 2.9691220426916303,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.9321142017374632
+            },
+            "momentum-1": {
+              "pnl": 170.85735818502144,
+              "sharpeLike": 9.288353317950643,
+              "turnover": 58,
+              "maxDrawdownPct": 0.1712587057606745
+            },
+            "meanrev-1": {
+              "pnl": -65.64129281526766,
+              "sharpeLike": -0.8130951823496103,
+              "turnover": 30,
+              "maxDrawdownPct": 3.040166689175198
+            },
+            "marketmaker-1": {
+              "pnl": -3.188794720765145,
+              "sharpeLike": -0.05362053358500041,
+              "turnover": 1428,
+              "maxDrawdownPct": 2.176958572559304
+            }
+          }
+        },
+        {
+          "seed": 21,
+          "agents": {
+            "noise-1": {
+              "pnl": -200.31128510332928,
+              "sharpeLike": -3.200530333905363,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.7758973090463477
+            },
+            "noise-2": {
+              "pnl": -311.65022236571167,
+              "sharpeLike": -5.920936527609367,
+              "turnover": 3676,
+              "maxDrawdownPct": 3.267747454263475
+            },
+            "noise-3": {
+              "pnl": -548.8990218742347,
+              "sharpeLike": -9.844282454676476,
+              "turnover": 3695,
+              "maxDrawdownPct": 5.634317025476578
+            },
+            "momentum-1": {
+              "pnl": 335.05862972758587,
+              "sharpeLike": 8.930334518173833,
+              "turnover": 49,
+              "maxDrawdownPct": 0.029846720618908914
+            },
+            "meanrev-1": {
+              "pnl": -428.81721665004807,
+              "sharpeLike": -6.095315625978606,
+              "turnover": 30,
+              "maxDrawdownPct": 4.47742488028085
+            },
+            "marketmaker-1": {
+              "pnl": 374.9211927360211,
+              "sharpeLike": 6.864882252099262,
+              "turnover": 1410,
+              "maxDrawdownPct": 0.12348539554275298
+            }
+          }
+        },
+        {
+          "seed": 22,
+          "agents": {
+            "noise-1": {
+              "pnl": -270.4267329432514,
+              "sharpeLike": -4.429004198327767,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.884994300929532
+            },
+            "noise-2": {
+              "pnl": -272.6647738929096,
+              "sharpeLike": -5.1745985897765125,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.841496877092589
+            },
+            "noise-3": {
+              "pnl": -166.61870713571625,
+              "sharpeLike": -3.093509660871201,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.8354281367428347
+            },
+            "momentum-1": {
+              "pnl": 295.4094286273139,
+              "sharpeLike": 12.622908450176865,
+              "turnover": 80,
+              "maxDrawdownPct": 0.16282007239342416
+            },
+            "meanrev-1": {
+              "pnl": -265.20941464129464,
+              "sharpeLike": -3.22789571386887,
+              "turnover": 30,
+              "maxDrawdownPct": 2.9248405499334478
+            },
+            "marketmaker-1": {
+              "pnl": 359.32945842767367,
+              "sharpeLike": 7.904573084872344,
+              "turnover": 1450,
+              "maxDrawdownPct": 1.5629527941443324
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "agents": {
+            "noise-1": {
+              "pnl": -584.8793953847453,
+              "sharpeLike": -9.054982318659789,
+              "turnover": 3534,
+              "maxDrawdownPct": 8.739361697563448
+            },
+            "noise-2": {
+              "pnl": -308.0511741162627,
+              "sharpeLike": -3.296454375597998,
+              "turnover": 3676,
+              "maxDrawdownPct": 8.895412278453763
+            },
+            "noise-3": {
+              "pnl": -210.64116299784837,
+              "sharpeLike": -2.403370188256445,
+              "turnover": 3695,
+              "maxDrawdownPct": 5.823176098611847
+            },
+            "momentum-1": {
+              "pnl": 703.873434308287,
+              "sharpeLike": 11.437382386478095,
+              "turnover": 99,
+              "maxDrawdownPct": 0.1830808345180325
+            },
+            "meanrev-1": {
+              "pnl": 140.6761151945684,
+              "sharpeLike": 1.360165999922318,
+              "turnover": 30,
+              "maxDrawdownPct": 7.326938771970267
+            },
+            "marketmaker-1": {
+              "pnl": 497.9476470306836,
+              "sharpeLike": 6.383352693292575,
+              "turnover": 1504,
+              "maxDrawdownPct": 3.2490993325148434
+            }
+          }
+        },
+        {
+          "seed": 24,
+          "agents": {
+            "noise-1": {
+              "pnl": -686.5627059207472,
+              "sharpeLike": -10.238346091408339,
+              "turnover": 3534,
+              "maxDrawdownPct": 9.978877067757393
+            },
+            "noise-2": {
+              "pnl": 601.7529746523542,
+              "sharpeLike": 10.347078916541554,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.6264376955244613
+            },
+            "noise-3": {
+              "pnl": 457.5312732085422,
+              "sharpeLike": 7.353395203850929,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.327878233747233
+            },
+            "momentum-1": {
+              "pnl": 189.01518985063922,
+              "sharpeLike": 6.8703604432267005,
+              "turnover": 47,
+              "maxDrawdownPct": 0.42545446466509074
+            },
+            "meanrev-1": {
+              "pnl": 590.8922624559964,
+              "sharpeLike": 8.364792311978226,
+              "turnover": 30,
+              "maxDrawdownPct": 3.4147492274003524
+            },
+            "marketmaker-1": {
+              "pnl": 788.5313501315777,
+              "sharpeLike": 13.196505139776301,
+              "turnover": 1446,
+              "maxDrawdownPct": 1.9910349996525147
+            }
+          }
+        },
+        {
+          "seed": 25,
+          "agents": {
+            "noise-1": {
+              "pnl": -678.8823072301748,
+              "sharpeLike": -12.085553599505282,
+              "turnover": 3534,
+              "maxDrawdownPct": 7.050848755172476
+            },
+            "noise-2": {
+              "pnl": 387.614761419607,
+              "sharpeLike": 8.044224131883606,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.628085192438623
+            },
+            "noise-3": {
+              "pnl": 556.4165240066068,
+              "sharpeLike": 10.565649907693576,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.3030660520127457
+            },
+            "momentum-1": {
+              "pnl": 128.7544635585673,
+              "sharpeLike": 6.973589673966159,
+              "turnover": 36,
+              "maxDrawdownPct": 0.23024290766436692
+            },
+            "meanrev-1": {
+              "pnl": 409.9036677698241,
+              "sharpeLike": 5.534117267771809,
+              "turnover": 30,
+              "maxDrawdownPct": 2.6016851894689355
+            },
+            "marketmaker-1": {
+              "pnl": 284.743631584819,
+              "sharpeLike": 8.985691630919346,
+              "turnover": 1520,
+              "maxDrawdownPct": 0.25469058830287883
+            }
+          }
+        },
+        {
+          "seed": 26,
+          "agents": {
+            "noise-1": {
+              "pnl": -784.2815355406947,
+              "sharpeLike": -9.798289241180935,
+              "turnover": 3534,
+              "maxDrawdownPct": 8.938700672654337
+            },
+            "noise-2": {
+              "pnl": 343.2294542181262,
+              "sharpeLike": 4.400663447704925,
+              "turnover": 3676,
+              "maxDrawdownPct": 3.007844309813168
+            },
+            "noise-3": {
+              "pnl": 597.1474603503702,
+              "sharpeLike": 8.405583172255888,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.748521610205753
+            },
+            "momentum-1": {
+              "pnl": 249.9190491187128,
+              "sharpeLike": 11.318268984533226,
+              "turnover": 91,
+              "maxDrawdownPct": 0.15274444470594423
+            },
+            "meanrev-1": {
+              "pnl": 1070.8636952974575,
+              "sharpeLike": 10.789875235557961,
+              "turnover": 30,
+              "maxDrawdownPct": 2.9137018463757522
+            },
+            "marketmaker-1": {
+              "pnl": -840.2051497385874,
+              "sharpeLike": -9.748796090959953,
+              "turnover": 1532,
+              "maxDrawdownPct": 10.25210900401013
+            }
+          }
+        },
+        {
+          "seed": 27,
+          "agents": {
+            "noise-1": {
+              "pnl": -395.26254381650506,
+              "sharpeLike": -7.492174673554923,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.0631563216256374
+            },
+            "noise-2": {
+              "pnl": 367.39750916953926,
+              "sharpeLike": 7.767820220454009,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.37071939396225184
+            },
+            "noise-3": {
+              "pnl": 375.21358117813725,
+              "sharpeLike": 7.524686899761922,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.33069212747227855
+            },
+            "momentum-1": {
+              "pnl": -26.605576965053842,
+              "sharpeLike": -3.9036257319006467,
+              "turnover": 5,
+              "maxDrawdownPct": 0.34885419912367166
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": -26.864669987466186,
+              "sharpeLike": -0.5187505461790676,
+              "turnover": 1336,
+              "maxDrawdownPct": 1.40811364263004
+            }
+          }
+        },
+        {
+          "seed": 28,
+          "agents": {
+            "noise-1": {
+              "pnl": 105.63239725251333,
+              "sharpeLike": 0.9829366819599398,
+              "turnover": 3534,
+              "maxDrawdownPct": 7.79149122383149
+            },
+            "noise-2": {
+              "pnl": -437.84521967500586,
+              "sharpeLike": -4.001014500469123,
+              "turnover": 3676,
+              "maxDrawdownPct": 8.680401311233943
+            },
+            "noise-3": {
+              "pnl": -211.00634001439357,
+              "sharpeLike": -2.1424386003010767,
+              "turnover": 3695,
+              "maxDrawdownPct": 7.477278408750519
+            },
+            "momentum-1": {
+              "pnl": 827.2977052110073,
+              "sharpeLike": 9.413421616179267,
+              "turnover": 68,
+              "maxDrawdownPct": 0.4713644221650856
+            },
+            "meanrev-1": {
+              "pnl": -535.8244681355991,
+              "sharpeLike": -5.041188830335148,
+              "turnover": 30,
+              "maxDrawdownPct": 9.769014560044944
+            },
+            "marketmaker-1": {
+              "pnl": -92.97341526776472,
+              "sharpeLike": -0.8241044488955162,
+              "turnover": 1424,
+              "maxDrawdownPct": 8.69843257459376
+            }
+          }
+        },
+        {
+          "seed": 29,
+          "agents": {
+            "noise-1": {
+              "pnl": -167.28242484829389,
+              "sharpeLike": -1.345274677848551,
+              "turnover": 3534,
+              "maxDrawdownPct": 13.002368270142743
+            },
+            "noise-2": {
+              "pnl": -1153.456379569643,
+              "sharpeLike": -9.504098350028785,
+              "turnover": 3676,
+              "maxDrawdownPct": 12.031957836955232
+            },
+            "noise-3": {
+              "pnl": -1057.2468700861173,
+              "sharpeLike": -10.261525809512777,
+              "turnover": 3695,
+              "maxDrawdownPct": 10.662902986670025
+            },
+            "momentum-1": {
+              "pnl": 1326.5455275807453,
+              "sharpeLike": 13.415305660342344,
+              "turnover": 117,
+              "maxDrawdownPct": 0.3581578236943435
+            },
+            "meanrev-1": {
+              "pnl": -673.0576980421465,
+              "sharpeLike": -5.004339203146179,
+              "turnover": 30,
+              "maxDrawdownPct": 9.512803869512704
+            },
+            "marketmaker-1": {
+              "pnl": 1003.9832111047181,
+              "sharpeLike": 11.14505842283755,
+              "turnover": 1448,
+              "maxDrawdownPct": 3.635736274049342
+            }
+          }
+        },
+        {
+          "seed": 30,
+          "agents": {
+            "noise-1": {
+              "pnl": 197.30493654041857,
+              "sharpeLike": 3.842110705445189,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.5356950715834737
+            },
+            "noise-2": {
+              "pnl": 106.95407739564507,
+              "sharpeLike": 2.3411175182984136,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.3346208221294054
+            },
+            "noise-3": {
+              "pnl": -39.99764960385983,
+              "sharpeLike": -0.8426307348233203,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.983874913722626
+            },
+            "momentum-1": {
+              "pnl": 72.75537326573794,
+              "sharpeLike": 7.012248404748884,
+              "turnover": 23,
+              "maxDrawdownPct": 0.05008130719685262
+            },
+            "meanrev-1": {
+              "pnl": -112.17084863730815,
+              "sharpeLike": -2.208134117352628,
+              "turnover": 30,
+              "maxDrawdownPct": 1.8629207494604998
+            },
+            "marketmaker-1": {
+              "pnl": -212.90762817867835,
+              "sharpeLike": -4.673153473802099,
+              "turnover": 1446,
+              "maxDrawdownPct": 2.2887532221653495
+            }
+          }
+        }
+      ],
+      "aggregated": {
+        "noise-1": {
+          "meanSharpeLike": -0.9302842901281599,
+          "ci95SharpeLike": 2.708970939026277,
+          "meanPnl": 9.029952355040708,
+          "ci95Pnl": 230.94351700272935,
+          "meanTurnover": 3534,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 5.19065998711034
+        },
+        "noise-2": {
+          "meanSharpeLike": 1.766813255102485,
+          "ci95SharpeLike": 2.2014101770116055,
+          "meanPnl": 65.74242227503298,
+          "ci95Pnl": 152.51432844739816,
+          "meanTurnover": 3676,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 3.4237709457717576
+        },
+        "noise-3": {
+          "meanSharpeLike": 0.43740347064949536,
+          "ci95SharpeLike": 2.5046699858531603,
+          "meanPnl": -35.183465812464604,
+          "ci95Pnl": 173.82163982765434,
+          "meanTurnover": 3695,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 3.8731934088383135
+        },
+        "momentum-1": {
+          "meanSharpeLike": 8.979064621900577,
+          "ci95SharpeLike": 1.1970634602070593,
+          "meanPnl": 474.28463238003644,
+          "ci95Pnl": 144.98738474541977,
+          "meanTurnover": 62.03333333333333,
+          "ci95Turnover": 11.240692494450208,
+          "meanMaxDrawdownPct": 0.20964841121825414
+        },
+        "meanrev-1": {
+          "meanSharpeLike": -1.6870129589577716,
+          "ci95SharpeLike": 2.043856819581447,
+          "meanPnl": -185.08563453719736,
+          "ci95Pnl": 188.56588097939257,
+          "meanTurnover": 28,
+          "ci95Turnover": 2.723648668416233,
+          "meanMaxDrawdownPct": 5.3723824970671235
+        },
+        "marketmaker-1": {
+          "meanSharpeLike": 1.279745225078862,
+          "ci95SharpeLike": 2.4853933796233365,
+          "meanPnl": 44.730571376214236,
+          "ci95Pnl": 167.14596073867963,
+          "meanTurnover": 1434.6,
+          "ci95Turnover": 18.40769540227642,
+          "meanMaxDrawdownPct": 3.9778710823929653
+        }
+      }
+    },
+    {
+      "world": "MEANREV",
+      "worldMarket": {
+        "switchProb": 0.0025,
+        "trendDrift": 0,
+        "meanRevertK": 0.25,
+        "fairNoiseStd": 0.02,
+        "microNoiseStd": 0.02
+      },
+      "seeds": 30,
+      "perSeed": [
+        {
+          "seed": 1,
+          "agents": {
+            "noise-1": {
+              "pnl": 28.339060687838355,
+              "sharpeLike": 0.5549246458377111,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.25423368576490823
+            },
+            "noise-2": {
+              "pnl": 4.894404073940677,
+              "sharpeLike": 0.1054956021242546,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.23173320643761516
+            },
+            "noise-3": {
+              "pnl": -8.569872408777883,
+              "sharpeLike": -0.17510763323882517,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.3908986086851948
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 37.91430554876388,
+              "sharpeLike": 0.9040567517764516,
+              "turnover": 1416,
+              "maxDrawdownPct": 0.188761466319638
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "agents": {
+            "noise-1": {
+              "pnl": -45.11295819908628,
+              "sharpeLike": -0.8724377677833484,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.5346642498230934
+            },
+            "noise-2": {
+              "pnl": -18.669791765751143,
+              "sharpeLike": -0.4053988577450511,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.3501108663852406
+            },
+            "noise-3": {
+              "pnl": -0.025712375056173187,
+              "sharpeLike": -0.0005273815133622603,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.23379003998029993
+            },
+            "momentum-1": {
+              "pnl": 2.631104967551437,
+              "sharpeLike": 0.31110169921756026,
+              "turnover": 10,
+              "maxDrawdownPct": 0.030885487047787322
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 50.899911557624364,
+              "sharpeLike": 1.0682986963286123,
+              "turnover": 1458,
+              "maxDrawdownPct": 0.23760850227866875
+            }
+          }
+        },
+        {
+          "seed": 3,
+          "agents": {
+            "noise-1": {
+              "pnl": 8.107580665651767,
+              "sharpeLike": 0.15960519107419283,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.23538564133141904
+            },
+            "noise-2": {
+              "pnl": -11.867508326589814,
+              "sharpeLike": -0.2539449447042072,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.2546368435310747
+            },
+            "noise-3": {
+              "pnl": 2.6298817272090673,
+              "sharpeLike": 0.05372499661196383,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.22919610761270898
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 48.139212766454875,
+              "sharpeLike": 1.1580508234165934,
+              "turnover": 1390,
+              "maxDrawdownPct": 0.16631289734522275
+            }
+          }
+        },
+        {
+          "seed": 4,
+          "agents": {
+            "noise-1": {
+              "pnl": -94.19909682179969,
+              "sharpeLike": -1.8049373053211806,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.0332241981231955
+            },
+            "noise-2": {
+              "pnl": 11.445514197828743,
+              "sharpeLike": 0.24623894470964536,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.30761417512768796
+            },
+            "noise-3": {
+              "pnl": 28.184389926447693,
+              "sharpeLike": 0.57934474571748,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.2394941390731866
+            },
+            "momentum-1": {
+              "pnl": 6.497566661033488,
+              "sharpeLike": 0.9062024978225101,
+              "turnover": 10,
+              "maxDrawdownPct": 0.011782913858986612
+            },
+            "meanrev-1": {
+              "pnl": -11.690696110863428,
+              "sharpeLike": -0.8085292127749079,
+              "turnover": 9,
+              "maxDrawdownPct": 0.11867447992397501
+            },
+            "marketmaker-1": {
+              "pnl": 70.16578413830575,
+              "sharpeLike": 1.553547211136029,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.21816233842406538
+            }
+          }
+        },
+        {
+          "seed": 5,
+          "agents": {
+            "noise-1": {
+              "pnl": -5.7229901990358485,
+              "sharpeLike": -0.11189113365516917,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.21202221945351737
+            },
+            "noise-2": {
+              "pnl": -10.841333537850005,
+              "sharpeLike": -0.23638789270718769,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.2716830456141895
+            },
+            "noise-3": {
+              "pnl": 15.486175971902412,
+              "sharpeLike": 0.31711031040489424,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.13658131830465636
+            },
+            "momentum-1": {
+              "pnl": 0.12655335371528054,
+              "sharpeLike": 0.05289074973418315,
+              "turnover": 1,
+              "maxDrawdownPct": 0.007368826010303418
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 54.92330943912384,
+              "sharpeLike": 1.2235154743393963,
+              "turnover": 1394,
+              "maxDrawdownPct": 0.1639004214823255
+            }
+          }
+        },
+        {
+          "seed": 6,
+          "agents": {
+            "noise-1": {
+              "pnl": 10.479017935806041,
+              "sharpeLike": 0.20324444510651773,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.3958503849868141
+            },
+            "noise-2": {
+              "pnl": -17.535823433867336,
+              "sharpeLike": -0.37891674685679405,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.36800398530678397
+            },
+            "noise-3": {
+              "pnl": -9.80671817253824,
+              "sharpeLike": -0.20245688936372952,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.31862782576607807
+            },
+            "momentum-1": {
+              "pnl": 1.552713488579684,
+              "sharpeLike": 0.21338774345939746,
+              "turnover": 6,
+              "maxDrawdownPct": 0.06915658845440323
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 49.73143424233058,
+              "sharpeLike": 1.033480762145532,
+              "turnover": 1404,
+              "maxDrawdownPct": 0.2621844586777103
+            }
+          }
+        },
+        {
+          "seed": 7,
+          "agents": {
+            "noise-1": {
+              "pnl": 0.6895708681404358,
+              "sharpeLike": 0.01352286956654852,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.12698003194790572
+            },
+            "noise-2": {
+              "pnl": 2.3807066987883445,
+              "sharpeLike": 0.051168562634702056,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.11600995936897171
+            },
+            "noise-3": {
+              "pnl": 7.889263943767219,
+              "sharpeLike": 0.16210019958221195,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.13119426081385102
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 64.35452978347348,
+              "sharpeLike": 2.0236333342571986,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.07177742341253629
+            }
+          }
+        },
+        {
+          "seed": 8,
+          "agents": {
+            "noise-1": {
+              "pnl": -11.909097267205652,
+              "sharpeLike": -0.2326189046564791,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.4678740616278791
+            },
+            "noise-2": {
+              "pnl": -26.189147709386816,
+              "sharpeLike": -0.5833173820528592,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.493776786550197
+            },
+            "noise-3": {
+              "pnl": -25.894116471572488,
+              "sharpeLike": -0.5433513674165484,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.43423427084044747
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 96.18410622617557,
+              "sharpeLike": 2.2404985600571177,
+              "turnover": 1428,
+              "maxDrawdownPct": 0.10833686614143068
+            }
+          }
+        },
+        {
+          "seed": 9,
+          "agents": {
+            "noise-1": {
+              "pnl": 14.666215787809051,
+              "sharpeLike": 0.2875380156464852,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.16451512188017342
+            },
+            "noise-2": {
+              "pnl": 7.387500470093073,
+              "sharpeLike": 0.16558387079746104,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.20363186209313858
+            },
+            "noise-3": {
+              "pnl": 2.8004475560537685,
+              "sharpeLike": 0.05910828464261889,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.1883732173153512
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 52.893319819389944,
+              "sharpeLike": 0.9683834050813463,
+              "turnover": 1448,
+              "maxDrawdownPct": 0.11882530721088957
+            }
+          }
+        },
+        {
+          "seed": 10,
+          "agents": {
+            "noise-1": {
+              "pnl": 67.85445481102033,
+              "sharpeLike": 1.3336251347170498,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.24850695169068016
+            },
+            "noise-2": {
+              "pnl": -38.758082747779554,
+              "sharpeLike": -0.8596408885147826,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.5580764081452226
+            },
+            "noise-3": {
+              "pnl": -72.55964325439709,
+              "sharpeLike": -1.4898841658890631,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.8173413915685749
+            },
+            "momentum-1": {
+              "pnl": 1.799912384189156,
+              "sharpeLike": 0.9138372846345153,
+              "turnover": 1,
+              "maxDrawdownPct": 0.011673319684280974
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 16.001962209553312,
+              "sharpeLike": 0.28551433455215,
+              "turnover": 1308,
+              "maxDrawdownPct": 0.29136823672277595
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "agents": {
+            "noise-1": {
+              "pnl": 6.975252792823085,
+              "sharpeLike": 0.136613427833947,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.2385441445379543
+            },
+            "noise-2": {
+              "pnl": -19.415482684371455,
+              "sharpeLike": -0.4295647621208051,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.44563406235283415
+            },
+            "noise-3": {
+              "pnl": -23.994018917866924,
+              "sharpeLike": -0.49606673717167105,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.39236682528407857
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 58.49485395130432,
+              "sharpeLike": 1.0034449605079019,
+              "turnover": 1358,
+              "maxDrawdownPct": 0.19269126394888195
+            }
+          }
+        },
+        {
+          "seed": 12,
+          "agents": {
+            "noise-1": {
+              "pnl": 10.593232644801901,
+              "sharpeLike": 0.20133920131248434,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.32769017959031427
+            },
+            "noise-2": {
+              "pnl": 20.95713757748854,
+              "sharpeLike": 0.44821781011246026,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.34454504344155995
+            },
+            "noise-3": {
+              "pnl": -32.83553900464176,
+              "sharpeLike": -0.6419795450013954,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.6921811904310785
+            },
+            "momentum-1": {
+              "pnl": 3.9546927546052757,
+              "sharpeLike": 0.46100546841413953,
+              "turnover": 17,
+              "maxDrawdownPct": 0.047699223202617665
+            },
+            "meanrev-1": {
+              "pnl": -1.4890027366400318,
+              "sharpeLike": -0.06496571081478861,
+              "turnover": 12,
+              "maxDrawdownPct": 0.2262930414353006
+            },
+            "marketmaker-1": {
+              "pnl": 92.47379895619997,
+              "sharpeLike": 2.1736024259586406,
+              "turnover": 1464,
+              "maxDrawdownPct": 0.15662346482501627
+            }
+          }
+        },
+        {
+          "seed": 13,
+          "agents": {
+            "noise-1": {
+              "pnl": 36.36346586684158,
+              "sharpeLike": 0.7204584370090826,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.1855254050601816
+            },
+            "noise-2": {
+              "pnl": -7.438733276088897,
+              "sharpeLike": -0.16208102453604076,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.5207687473884413
+            },
+            "noise-3": {
+              "pnl": -32.753357463607244,
+              "sharpeLike": -0.6824789457353374,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.5817340487727658
+            },
+            "momentum-1": {
+              "pnl": 3.5854995183453866,
+              "sharpeLike": 0.6004806072445014,
+              "turnover": 7,
+              "maxDrawdownPct": 0.01768527635898862
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 29.163757815815188,
+              "sharpeLike": 0.6515153168286111,
+              "turnover": 1510,
+              "maxDrawdownPct": 0.2511666033659602
+            }
+          }
+        },
+        {
+          "seed": 14,
+          "agents": {
+            "noise-1": {
+              "pnl": -70.72142279163745,
+              "sharpeLike": -1.3801912450294749,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.0228158155083882
+            },
+            "noise-2": {
+              "pnl": -10.052107595663983,
+              "sharpeLike": -0.2123797010024133,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.483454431458206
+            },
+            "noise-3": {
+              "pnl": -12.335651073044573,
+              "sharpeLike": -0.25534047215458217,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.39437553591667374
+            },
+            "momentum-1": {
+              "pnl": -1.0369659373918694,
+              "sharpeLike": -0.14462256055825945,
+              "turnover": 13,
+              "maxDrawdownPct": 0.041987756609731836
+            },
+            "meanrev-1": {
+              "pnl": 9.208496159601054,
+              "sharpeLike": 0.5015225700196901,
+              "turnover": 13,
+              "maxDrawdownPct": 0.03302211891328625
+            },
+            "marketmaker-1": {
+              "pnl": 108.07435108254867,
+              "sharpeLike": 1.9544086660628157,
+              "turnover": 1418,
+              "maxDrawdownPct": 0.14107043864615743
+            }
+          }
+        },
+        {
+          "seed": 15,
+          "agents": {
+            "noise-1": {
+              "pnl": -6.457659222138318,
+              "sharpeLike": -0.12885386141230853,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.32916144577550926
+            },
+            "noise-2": {
+              "pnl": 4.856802534590315,
+              "sharpeLike": 0.10842790303640745,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.1860960791780442
+            },
+            "noise-3": {
+              "pnl": -2.4792872711041127,
+              "sharpeLike": -0.051233338545057905,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.24037217112890266
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 55.34091375162825,
+              "sharpeLike": 1.0777432776219997,
+              "turnover": 1460,
+              "maxDrawdownPct": 0.28947338497729996
+            }
+          }
+        },
+        {
+          "seed": 16,
+          "agents": {
+            "noise-1": {
+              "pnl": 4.933035574844325,
+              "sharpeLike": 0.09207777565672579,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.3670944204960393
+            },
+            "noise-2": {
+              "pnl": 23.400896416645992,
+              "sharpeLike": 0.4935195105628181,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.22391416903463132
+            },
+            "noise-3": {
+              "pnl": -20.297639713651733,
+              "sharpeLike": -0.3977834465538534,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.5291203030811564
+            },
+            "momentum-1": {
+              "pnl": 3.9946841043383756,
+              "sharpeLike": 0.4764529586919724,
+              "turnover": 15,
+              "maxDrawdownPct": 0.04069513480528289
+            },
+            "meanrev-1": {
+              "pnl": -5.909277987480891,
+              "sharpeLike": -0.17953082257024447,
+              "turnover": 15,
+              "maxDrawdownPct": 0.28347300715717794
+            },
+            "marketmaker-1": {
+              "pnl": 73.61386394347574,
+              "sharpeLike": 1.8755032214090768,
+              "turnover": 1502,
+              "maxDrawdownPct": 0.3801241323804558
+            }
+          }
+        },
+        {
+          "seed": 17,
+          "agents": {
+            "noise-1": {
+              "pnl": 18.04000890232237,
+              "sharpeLike": 0.35197150839657393,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.1963456103515406
+            },
+            "noise-2": {
+              "pnl": -10.47359992010206,
+              "sharpeLike": -0.22952109319570974,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.2041746593525469
+            },
+            "noise-3": {
+              "pnl": 11.873705051539218,
+              "sharpeLike": 0.24839423155857213,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.17003073811333985
+            },
+            "momentum-1": {
+              "pnl": 2.1898633431628696,
+              "sharpeLike": 0.24553897422177823,
+              "turnover": 6,
+              "maxDrawdownPct": 0.019864873237099942
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 41.16878368521793,
+              "sharpeLike": 0.8981739529646433,
+              "turnover": 1450,
+              "maxDrawdownPct": 0.20778364812221803
+            }
+          }
+        },
+        {
+          "seed": 18,
+          "agents": {
+            "noise-1": {
+              "pnl": -31.82186753640417,
+              "sharpeLike": -0.6240323598026366,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.522340540445989
+            },
+            "noise-2": {
+              "pnl": 51.220530805863746,
+              "sharpeLike": 1.1245026890482717,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.12985216401808303
+            },
+            "noise-3": {
+              "pnl": 19.934784088773085,
+              "sharpeLike": 0.4120266842901298,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.21247255933893833
+            },
+            "momentum-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 34.102620449179085,
+              "sharpeLike": 0.6740665482860616,
+              "turnover": 1420,
+              "maxDrawdownPct": 0.2437241478550439
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "agents": {
+            "noise-1": {
+              "pnl": -87.23711591588471,
+              "sharpeLike": -1.6859167734541372,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.9789181337220167
+            },
+            "noise-2": {
+              "pnl": 6.456379125129388,
+              "sharpeLike": 0.1417704077597015,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.4176619592010755
+            },
+            "noise-3": {
+              "pnl": 43.02619884537853,
+              "sharpeLike": 0.8963354325613477,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.3447591418246773
+            },
+            "momentum-1": {
+              "pnl": 5.613597162540827,
+              "sharpeLike": 0.8816430760657352,
+              "turnover": 11,
+              "maxDrawdownPct": 0.017117774119549636
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 72.68343935505072,
+              "sharpeLike": 1.4473585386731092,
+              "turnover": 1374,
+              "maxDrawdownPct": 0.2621012748035957
+            }
+          }
+        },
+        {
+          "seed": 20,
+          "agents": {
+            "noise-1": {
+              "pnl": -3.6833829501993023,
+              "sharpeLike": -0.07297009873647854,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.2715658777915526
+            },
+            "noise-2": {
+              "pnl": -4.74987836618493,
+              "sharpeLike": -0.10450269621285865,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.3893878021690735
+            },
+            "noise-3": {
+              "pnl": 10.458023577226413,
+              "sharpeLike": 0.21601399941079458,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.2789145829750052
+            },
+            "momentum-1": {
+              "pnl": 1.1429386049239838,
+              "sharpeLike": 0.160587150452594,
+              "turnover": 3,
+              "maxDrawdownPct": 0.032590241654010775
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 54.43570917375109,
+              "sharpeLike": 1.0296283643705455,
+              "turnover": 1428,
+              "maxDrawdownPct": 0.28612574469529867
+            }
+          }
+        },
+        {
+          "seed": 21,
+          "agents": {
+            "noise-1": {
+              "pnl": 2.8317904384275607,
+              "sharpeLike": 0.05497726100031235,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.3036304531642549
+            },
+            "noise-2": {
+              "pnl": 17.676780053721814,
+              "sharpeLike": 0.38259757103323516,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.23250176741761763
+            },
+            "noise-3": {
+              "pnl": 6.375764078009524,
+              "sharpeLike": 0.13239440608203615,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.24368666206516548
+            },
+            "momentum-1": {
+              "pnl": 0.48511171394056873,
+              "sharpeLike": 0.06272459168436285,
+              "turnover": 6,
+              "maxDrawdownPct": 0.02978559763228762
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 43.16196791655602,
+              "sharpeLike": 0.8106197959071563,
+              "turnover": 1410,
+              "maxDrawdownPct": 0.15935976678244104
+            }
+          }
+        },
+        {
+          "seed": 22,
+          "agents": {
+            "noise-1": {
+              "pnl": 12.985053503345625,
+              "sharpeLike": 0.25129756836456585,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.1875093388496941
+            },
+            "noise-2": {
+              "pnl": 6.17005077252179,
+              "sharpeLike": 0.1369584589204427,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.2044057444846952
+            },
+            "noise-3": {
+              "pnl": -21.472259525051413,
+              "sharpeLike": -0.4535842800032769,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.29967532191060076
+            },
+            "momentum-1": {
+              "pnl": -1.6008264716019767,
+              "sharpeLike": -0.23054283681766338,
+              "turnover": 3,
+              "maxDrawdownPct": 0.028288012361701663
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 34.34177087050921,
+              "sharpeLike": 0.8478900844983507,
+              "turnover": 1450,
+              "maxDrawdownPct": 0.1711317976125305
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "agents": {
+            "noise-1": {
+              "pnl": -2.4799352434547473,
+              "sharpeLike": -0.04772703961886998,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.4963727757501507
+            },
+            "noise-2": {
+              "pnl": -6.709916181152948,
+              "sharpeLike": -0.13709228040878793,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.4086490751052842
+            },
+            "noise-3": {
+              "pnl": 21.77169616907122,
+              "sharpeLike": 0.4269774766702476,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.4666759986844982
+            },
+            "momentum-1": {
+              "pnl": 6.522981572823483,
+              "sharpeLike": 0.7173267660370913,
+              "turnover": 20,
+              "maxDrawdownPct": 0.04864995252063246
+            },
+            "meanrev-1": {
+              "pnl": -1.2540716566854826,
+              "sharpeLike": -0.05723213594527809,
+              "turnover": 19,
+              "maxDrawdownPct": 0.20708972788224855
+            },
+            "marketmaker-1": {
+              "pnl": 100.76320025037421,
+              "sharpeLike": 2.0495524474287126,
+              "turnover": 1504,
+              "maxDrawdownPct": 0.23042422920189115
+            }
+          }
+        },
+        {
+          "seed": 24,
+          "agents": {
+            "noise-1": {
+              "pnl": -17.064456804959264,
+              "sharpeLike": -0.33493171077623385,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.42634020574455156
+            },
+            "noise-2": {
+              "pnl": 7.355942772013805,
+              "sharpeLike": 0.159957359924633,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.32777884874954066
+            },
+            "noise-3": {
+              "pnl": 0.53912104779738,
+              "sharpeLike": 0.010928725372127265,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.29688078927364225
+            },
+            "momentum-1": {
+              "pnl": -3.565444476198536,
+              "sharpeLike": -0.4488009851928726,
+              "turnover": 4,
+              "maxDrawdownPct": 0.07267165156001458
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 103.23942461507977,
+              "sharpeLike": 2.0092896014862647,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.15946399296866529
+            }
+          }
+        },
+        {
+          "seed": 25,
+          "agents": {
+            "noise-1": {
+              "pnl": 3.113412473905555,
+              "sharpeLike": 0.0613250705520893,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.382946565672981
+            },
+            "noise-2": {
+              "pnl": 16.144520337367794,
+              "sharpeLike": 0.34990472749209617,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.1948661534797594
+            },
+            "noise-3": {
+              "pnl": -32.73391483161322,
+              "sharpeLike": -0.6975011035636107,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.42261239099374603
+            },
+            "momentum-1": {
+              "pnl": 0.32888219615415437,
+              "sharpeLike": 0.05900866493914227,
+              "turnover": 11,
+              "maxDrawdownPct": 0.029156213129101067
+            },
+            "meanrev-1": {
+              "pnl": 1.2848550590970262,
+              "sharpeLike": 0.2314973326204511,
+              "turnover": 4,
+              "maxDrawdownPct": 0.031236994165089984
+            },
+            "marketmaker-1": {
+              "pnl": 59.26293734745195,
+              "sharpeLike": 1.922423931081641,
+              "turnover": 1520,
+              "maxDrawdownPct": 0.09414690286385656
+            }
+          }
+        },
+        {
+          "seed": 26,
+          "agents": {
+            "noise-1": {
+              "pnl": 10.483244576118523,
+              "sharpeLike": 0.2087543704681202,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.22870848929866391
+            },
+            "noise-2": {
+              "pnl": 20.038503322448378,
+              "sharpeLike": 0.4462335993890827,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.1839075456817128
+            },
+            "noise-3": {
+              "pnl": -0.4729735865803377,
+              "sharpeLike": -0.01015264498999366,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.33646413828352695
+            },
+            "momentum-1": {
+              "pnl": 0.5390776600925165,
+              "sharpeLike": 0.13035367918085036,
+              "turnover": 3,
+              "maxDrawdownPct": 0.02069783899733295
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 61.88421763963561,
+              "sharpeLike": 1.0453489081850227,
+              "turnover": 1532,
+              "maxDrawdownPct": 0.22900303004665304
+            }
+          }
+        },
+        {
+          "seed": 27,
+          "agents": {
+            "noise-1": {
+              "pnl": 14.5850864716449,
+              "sharpeLike": 0.2839815970863034,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.23734540191633946
+            },
+            "noise-2": {
+              "pnl": -16.700516967952353,
+              "sharpeLike": -0.3615850709822183,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.42761377213599555
+            },
+            "noise-3": {
+              "pnl": -5.803949716761053,
+              "sharpeLike": -0.12122401339353767,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.2927937147099729
+            },
+            "momentum-1": {
+              "pnl": 2.675334998913968,
+              "sharpeLike": 0.38335027372830394,
+              "turnover": 11,
+              "maxDrawdownPct": 0.02702566681939609
+            },
+            "meanrev-1": {
+              "pnl": -1.6890303809868783,
+              "sharpeLike": -0.15673614760799423,
+              "turnover": 8,
+              "maxDrawdownPct": 0.0625843840243102
+            },
+            "marketmaker-1": {
+              "pnl": 70.61552156094695,
+              "sharpeLike": 1.341997294908373,
+              "turnover": 1336,
+              "maxDrawdownPct": 0.21307167175155148
+            }
+          }
+        },
+        {
+          "seed": 28,
+          "agents": {
+            "noise-1": {
+              "pnl": -6.886498804740768,
+              "sharpeLike": -0.13614843385174424,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.2862537824763526
+            },
+            "noise-2": {
+              "pnl": -21.632264714182384,
+              "sharpeLike": -0.47248692735287456,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.3866729157049549
+            },
+            "noise-3": {
+              "pnl": -2.6145363397063193,
+              "sharpeLike": -0.05514835917959141,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.32180208391283494
+            },
+            "momentum-1": {
+              "pnl": -0.10748372984380694,
+              "sharpeLike": -0.024024435139656502,
+              "turnover": 2,
+              "maxDrawdownPct": 0.018696952461224763
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 70.28328345489172,
+              "sharpeLike": 1.4514827102655923,
+              "turnover": 1424,
+              "maxDrawdownPct": 0.17972504303068365
+            }
+          }
+        },
+        {
+          "seed": 29,
+          "agents": {
+            "noise-1": {
+              "pnl": -8.719280434985194,
+              "sharpeLike": -0.1719798900213793,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.4131839482837665
+            },
+            "noise-2": {
+              "pnl": -37.22095209553663,
+              "sharpeLike": -0.8273028448849732,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.4922299172012816
+            },
+            "noise-3": {
+              "pnl": -24.597794442648592,
+              "sharpeLike": -0.5272527363530983,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.3024382034677241
+            },
+            "momentum-1": {
+              "pnl": 0.5625591083553445,
+              "sharpeLike": 0.13557949395842286,
+              "turnover": 2,
+              "maxDrawdownPct": 0.027387638423551925
+            },
+            "meanrev-1": {
+              "pnl": 0,
+              "sharpeLike": null,
+              "turnover": 0,
+              "maxDrawdownPct": 0
+            },
+            "marketmaker-1": {
+              "pnl": 59.57735967785811,
+              "sharpeLike": 1.5230992219059958,
+              "turnover": 1448,
+              "maxDrawdownPct": 0.10200795075987622
+            }
+          }
+        },
+        {
+          "seed": 30,
+          "agents": {
+            "noise-1": {
+              "pnl": 28.09288238312729,
+              "sharpeLike": 0.5540078035350767,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.19939557643439196
+            },
+            "noise-2": {
+              "pnl": 12.256861948586447,
+              "sharpeLike": 0.26585718461492297,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.2464565639796097
+            },
+            "noise-3": {
+              "pnl": -3.628599551790103,
+              "sharpeLike": -0.07611754557159081,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.3957009317688054
+            },
+            "momentum-1": {
+              "pnl": 3.758897079691451,
+              "sharpeLike": 0.49122425479867454,
+              "turnover": 16,
+              "maxDrawdownPct": 0.032627647924574496
+            },
+            "meanrev-1": {
+              "pnl": -8.294051963157472,
+              "sharpeLike": -0.29830608880894227,
+              "turnover": 17,
+              "maxDrawdownPct": 0.17142911498229296
+            },
+            "marketmaker-1": {
+              "pnl": 42.71788046437541,
+              "sharpeLike": 0.9503858410786025,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.5078615348641987
+            }
+          }
+        }
+      ],
+      "aggregated": {
+        "noise-1": {
+          "meanSharpeLike": -0.07117907336518847,
+          "ci95SharpeLike": 0.2368331823997078,
+          "meanPnl": -3.7627798602354234,
+          "ci95Pnl": 12.19656767244622,
+          "meanTurnover": 3534,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 0.37583148858334064
+        },
+        "noise-2": {
+          "meanSharpeLike": -0.03425629703724763,
+          "ci95SharpeLike": 0.15261330015032915,
+          "meanPnl": -1.5204202738477155,
+          "ci95Pnl": 6.964260688947718,
+          "meanTurnover": 3676,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 0.320194952003169
+        },
+        "noise-3": {
+          "meanSharpeLike": -0.11209103709112336,
+          "ci95SharpeLike": 0.16684156943361658,
+          "meanPnl": -5.396871071241124,
+          "ci95Pnl": 8.09626552325334,
+          "meanTurnover": 3695,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 0.34449295039658284
+        },
+        "momentum-1": {
+          "meanSharpeLike": 0.2888502325716948,
+          "ci95SharpeLike": 0.15396951919145724,
+          "meanPnl": 1.388375001930702,
+          "ci95Pnl": 0.8410504132519073,
+          "meanTurnover": 5.933333333333334,
+          "ci95Turnover": 2.1592403375374967,
+          "meanMaxDrawdownPct": 0.022783152895762014
+        },
+        "meanrev-1": {
+          "meanSharpeLike": -0.10403502698525179,
+          "ci95SharpeLike": 0.26523820281894184,
+          "meanPnl": -0.6610926539038701,
+          "ci95Pnl": 1.1893695977736343,
+          "meanTurnover": 3.2333333333333334,
+          "ci95Turnover": 2.1381764135540653,
+          "meanMaxDrawdownPct": 0.03779342894945605
+        },
+        "marketmaker-1": {
+          "meanSharpeLike": 1.3065504820839844,
+          "ci95SharpeLike": 0.18563526254148074,
+          "meanPnl": 60.220251056434854,
+          "ci95Pnl": 8.137501908549215,
+          "meanTurnover": 1434.6,
+          "ci95Turnover": 18.40769540227642,
+          "meanMaxDrawdownPct": 0.20947726471725134
+        }
+      }
+    },
+    {
+      "world": "CHOP",
+      "worldMarket": {
+        "switchProb": 0.0025,
+        "trendDrift": 0,
+        "meanRevertK": 0,
+        "fairNoiseStd": 0.1,
+        "microNoiseStd": 0.1
+      },
+      "seeds": 30,
+      "perSeed": [
+        {
+          "seed": 1,
+          "agents": {
+            "noise-1": {
+              "pnl": 143.64591588141047,
+              "sharpeLike": 0.5629130250888098,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.2324176355684586
+            },
+            "noise-2": {
+              "pnl": 31.366143345094315,
+              "sharpeLike": 0.13536002135919378,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.113796467791608
+            },
+            "noise-3": {
+              "pnl": -41.63686543226686,
+              "sharpeLike": -0.1704797056104422,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.9302894754664937
+            },
+            "momentum-1": {
+              "pnl": -43.71761125116609,
+              "sharpeLike": -1.2799502654638268,
+              "turnover": 913,
+              "maxDrawdownPct": 0.5027738487941206
+            },
+            "meanrev-1": {
+              "pnl": -126.39773931477976,
+              "sharpeLike": -0.513276919174821,
+              "turnover": 172,
+              "maxDrawdownPct": 2.33566986970004
+            },
+            "marketmaker-1": {
+              "pnl": 20.99848048392414,
+              "sharpeLike": 0.10679398544474668,
+              "turnover": 1416,
+              "maxDrawdownPct": 1.12507978508443
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "agents": {
+            "noise-1": {
+              "pnl": -247.7349960917927,
+              "sharpeLike": -0.9682418919875145,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.008243562935032
+            },
+            "noise-2": {
+              "pnl": 21.66959660163411,
+              "sharpeLike": 0.09566519290785987,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.5636679188501577
+            },
+            "noise-3": {
+              "pnl": 5.5822423559038725,
+              "sharpeLike": 0.023151168396113683,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.2400134817459163
+            },
+            "momentum-1": {
+              "pnl": -68.00147634437417,
+              "sharpeLike": -2.086184483847389,
+              "turnover": 869,
+              "maxDrawdownPct": 0.841018027557187
+            },
+            "meanrev-1": {
+              "pnl": 73.06838944071205,
+              "sharpeLike": 0.2864479655196566,
+              "turnover": 98,
+              "maxDrawdownPct": 1.248309675951151
+            },
+            "marketmaker-1": {
+              "pnl": -58.14080968863345,
+              "sharpeLike": -0.2663541905693255,
+              "turnover": 1458,
+              "maxDrawdownPct": 1.3557410869621274
+            }
+          }
+        },
+        {
+          "seed": 3,
+          "agents": {
+            "noise-1": {
+              "pnl": -97.68367340742225,
+              "sharpeLike": -0.38937091044767674,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.820784241500646
+            },
+            "noise-2": {
+              "pnl": -111.94526960022995,
+              "sharpeLike": -0.4837551180535056,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.6846444827079365
+            },
+            "noise-3": {
+              "pnl": -237.69527787159677,
+              "sharpeLike": -0.9829028697517926,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.275001093083343
+            },
+            "momentum-1": {
+              "pnl": -72.29939803544767,
+              "sharpeLike": -2.3904738007424475,
+              "turnover": 860,
+              "maxDrawdownPct": 0.7754418014842229
+            },
+            "meanrev-1": {
+              "pnl": -31.72716292299083,
+              "sharpeLike": -0.2600166379518878,
+              "turnover": 102,
+              "maxDrawdownPct": 0.7709786145894977
+            },
+            "marketmaker-1": {
+              "pnl": 5.181999037238711,
+              "sharpeLike": 0.027869931893809423,
+              "turnover": 1390,
+              "maxDrawdownPct": 1.2990789654602726
+            }
+          }
+        },
+        {
+          "seed": 4,
+          "agents": {
+            "noise-1": {
+              "pnl": -453.16719295247094,
+              "sharpeLike": -1.7956731558771954,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.9842113850228635
+            },
+            "noise-2": {
+              "pnl": 230.17508374613317,
+              "sharpeLike": 1.0008965857485612,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.3653799027748594
+            },
+            "noise-3": {
+              "pnl": 320.54473289530324,
+              "sharpeLike": 1.32800784981242,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.087146555688471
+            },
+            "momentum-1": {
+              "pnl": -78.26733735805828,
+              "sharpeLike": -2.6089382350309926,
+              "turnover": 869,
+              "maxDrawdownPct": 0.8664724247646312
+            },
+            "meanrev-1": {
+              "pnl": -46.15004754510301,
+              "sharpeLike": -0.6805619090211285,
+              "turnover": 65,
+              "maxDrawdownPct": 0.9515952289677733
+            },
+            "marketmaker-1": {
+              "pnl": 49.99635718035097,
+              "sharpeLike": 0.24748434271155972,
+              "turnover": 1446,
+              "maxDrawdownPct": 1.2462385729816823
+            }
+          }
+        },
+        {
+          "seed": 5,
+          "agents": {
+            "noise-1": {
+              "pnl": -120.07089381286096,
+              "sharpeLike": -0.4784866783714882,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.599628959993273
+            },
+            "noise-2": {
+              "pnl": -147.1216139827029,
+              "sharpeLike": -0.65547170412956,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.9470435373587118
+            },
+            "noise-3": {
+              "pnl": -20.050879929811344,
+              "sharpeLike": -0.08403665623976522,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.4775980436863025
+            },
+            "momentum-1": {
+              "pnl": -66.74065650107332,
+              "sharpeLike": -2.298176323881972,
+              "turnover": 833,
+              "maxDrawdownPct": 0.7208233269351908
+            },
+            "meanrev-1": {
+              "pnl": 47.17090179968727,
+              "sharpeLike": 0.5780660802523454,
+              "turnover": 88,
+              "maxDrawdownPct": 0.2889978749164686
+            },
+            "marketmaker-1": {
+              "pnl": 202.68236248587345,
+              "sharpeLike": 1.0028802485459245,
+              "turnover": 1394,
+              "maxDrawdownPct": 0.7506552662572089
+            }
+          }
+        },
+        {
+          "seed": 6,
+          "agents": {
+            "noise-1": {
+              "pnl": -152.74997812567017,
+              "sharpeLike": -0.6049623223919904,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.9010051842081013
+            },
+            "noise-2": {
+              "pnl": 11.596309222308264,
+              "sharpeLike": 0.050554701762782824,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.178040766261959
+            },
+            "noise-3": {
+              "pnl": 42.48185848126013,
+              "sharpeLike": 0.17716961748343832,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.2536126268203833
+            },
+            "momentum-1": {
+              "pnl": -34.79985694468269,
+              "sharpeLike": -1.103859875012191,
+              "turnover": 792,
+              "maxDrawdownPct": 0.413360115871219
+            },
+            "meanrev-1": {
+              "pnl": -0.7861787285582977,
+              "sharpeLike": -0.003912951438250805,
+              "turnover": 127,
+              "maxDrawdownPct": 1.6666571059522781
+            },
+            "marketmaker-1": {
+              "pnl": 149.22075597942785,
+              "sharpeLike": 0.6834883019418337,
+              "turnover": 1404,
+              "maxDrawdownPct": 1.1917460531390713
+            }
+          }
+        },
+        {
+          "seed": 7,
+          "agents": {
+            "noise-1": {
+              "pnl": -31.709448273379166,
+              "sharpeLike": -0.1267938374447623,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.223943837068009
+            },
+            "noise-2": {
+              "pnl": 100.20417606446063,
+              "sharpeLike": 0.4395399962024245,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.6821579697953972
+            },
+            "noise-3": {
+              "pnl": 150.02488131352584,
+              "sharpeLike": 0.6296212225062789,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.6676299215312644
+            },
+            "momentum-1": {
+              "pnl": -70.97825382357041,
+              "sharpeLike": -2.5134148783058783,
+              "turnover": 796,
+              "maxDrawdownPct": 0.742672249574608
+            },
+            "meanrev-1": {
+              "pnl": -18.856899752468962,
+              "sharpeLike": -0.1955273081591312,
+              "turnover": 85,
+              "maxDrawdownPct": 0.9747330659513627
+            },
+            "marketmaker-1": {
+              "pnl": 189.81522099632093,
+              "sharpeLike": 1.3293044166967147,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.6214691708359891
+            }
+          }
+        },
+        {
+          "seed": 8,
+          "agents": {
+            "noise-1": {
+              "pnl": -21.82289176078484,
+              "sharpeLike": -0.08543556050616036,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.0150828678874
+            },
+            "noise-2": {
+              "pnl": -115.65927552484209,
+              "sharpeLike": -0.5156336366933008,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.4277007537564907
+            },
+            "noise-3": {
+              "pnl": -78.54332718019032,
+              "sharpeLike": -0.33078719096271025,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.9947077665147301
+            },
+            "momentum-1": {
+              "pnl": -61.043529193771974,
+              "sharpeLike": -2.1604727140411213,
+              "turnover": 769,
+              "maxDrawdownPct": 0.6370383215844592
+            },
+            "meanrev-1": {
+              "pnl": 48.84973337723568,
+              "sharpeLike": 1.1568506353557921,
+              "turnover": 71,
+              "maxDrawdownPct": 0.15285749233943308
+            },
+            "marketmaker-1": {
+              "pnl": 289.79039048876257,
+              "sharpeLike": 1.463776764380271,
+              "turnover": 1428,
+              "maxDrawdownPct": 0.513062364948757
+            }
+          }
+        },
+        {
+          "seed": 9,
+          "agents": {
+            "noise-1": {
+              "pnl": 47.9229611395931,
+              "sharpeLike": 0.18886128108073022,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.1840329630508117
+            },
+            "noise-2": {
+              "pnl": 74.65422764544564,
+              "sharpeLike": 0.33735753041263045,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.974553786852455
+            },
+            "noise-3": {
+              "pnl": 63.146625488008794,
+              "sharpeLike": 0.2680917443515126,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.9720309902134591
+            },
+            "momentum-1": {
+              "pnl": -71.96288439341879,
+              "sharpeLike": -2.3637158899973962,
+              "turnover": 802,
+              "maxDrawdownPct": 0.7733458894376783
+            },
+            "meanrev-1": {
+              "pnl": 65.78476407501512,
+              "sharpeLike": 0.7248422927094479,
+              "turnover": 76,
+              "maxDrawdownPct": 0.2578141545685229
+            },
+            "marketmaker-1": {
+              "pnl": 100.80248908227622,
+              "sharpeLike": 0.4035570439380136,
+              "turnover": 1448,
+              "maxDrawdownPct": 0.7710003705464935
+            }
+          }
+        },
+        {
+          "seed": 10,
+          "agents": {
+            "noise-1": {
+              "pnl": 415.98227713456436,
+              "sharpeLike": 1.645331474387843,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.8859376669903187
+            },
+            "noise-2": {
+              "pnl": -175.92103133852288,
+              "sharpeLike": -0.7864190490149172,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.698481019824377
+            },
+            "noise-3": {
+              "pnl": -330.85126664721247,
+              "sharpeLike": -1.37197784407546,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.7676664953807038
+            },
+            "momentum-1": {
+              "pnl": -51.775072317288505,
+              "sharpeLike": -1.6567141169451904,
+              "turnover": 842,
+              "maxDrawdownPct": 0.6414549225423596
+            },
+            "meanrev-1": {
+              "pnl": -4.880770439745902,
+              "sharpeLike": -0.06942238003864364,
+              "turnover": 113,
+              "maxDrawdownPct": 0.4925550501072633
+            },
+            "marketmaker-1": {
+              "pnl": -44.979875046085,
+              "sharpeLike": -0.17421212576729117,
+              "turnover": 1308,
+              "maxDrawdownPct": 1.585344778737843
+            }
+          }
+        },
+        {
+          "seed": 11,
+          "agents": {
+            "noise-1": {
+              "pnl": -3.386969898110692,
+              "sharpeLike": -0.013381086564734298,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.8031343290877022
+            },
+            "noise-2": {
+              "pnl": -111.1161303030658,
+              "sharpeLike": -0.4944664659421851,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.5648392881221125
+            },
+            "noise-3": {
+              "pnl": -124.56275596156956,
+              "sharpeLike": -0.5169406345465437,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.1335659187318488
+            },
+            "momentum-1": {
+              "pnl": -44.48437273532363,
+              "sharpeLike": -1.4409147833173614,
+              "turnover": 794,
+              "maxDrawdownPct": 0.5193045287496072
+            },
+            "meanrev-1": {
+              "pnl": 114.38691474261032,
+              "sharpeLike": 1.5777706304693941,
+              "turnover": 99,
+              "maxDrawdownPct": 0.22398362036209524
+            },
+            "marketmaker-1": {
+              "pnl": 198.99088041416326,
+              "sharpeLike": 0.7362041213819261,
+              "turnover": 1358,
+              "maxDrawdownPct": 1.0865278310978035
+            }
+          }
+        },
+        {
+          "seed": 12,
+          "agents": {
+            "noise-1": {
+              "pnl": 244.5561400260558,
+              "sharpeLike": 0.9627971011486263,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.7332091875009119
+            },
+            "noise-2": {
+              "pnl": -39.025145052206426,
+              "sharpeLike": -0.17018918919967657,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.02614231503917
+            },
+            "noise-3": {
+              "pnl": -28.57471534891556,
+              "sharpeLike": -0.11964061209320459,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.1192879376422127
+            },
+            "momentum-1": {
+              "pnl": -22.346098163499846,
+              "sharpeLike": -0.7047316881430261,
+              "turnover": 760,
+              "maxDrawdownPct": 0.262492714169661
+            },
+            "meanrev-1": {
+              "pnl": 2.292010771772766,
+              "sharpeLike": 0.008466552151369681,
+              "turnover": 116,
+              "maxDrawdownPct": 2.3751494353923674
+            },
+            "marketmaker-1": {
+              "pnl": 253.71652745833308,
+              "sharpeLike": 1.3219231674626084,
+              "turnover": 1464,
+              "maxDrawdownPct": 1.1068005304372621
+            }
+          }
+        },
+        {
+          "seed": 13,
+          "agents": {
+            "noise-1": {
+              "pnl": 199.13380931115535,
+              "sharpeLike": 0.7965003396739092,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.8526524872647305
+            },
+            "noise-2": {
+              "pnl": 66.87844089094142,
+              "sharpeLike": 0.29372455396552344,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.222345969972695
+            },
+            "noise-3": {
+              "pnl": -123.2144405725976,
+              "sharpeLike": -0.5191034337094199,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.760160220978845
+            },
+            "momentum-1": {
+              "pnl": -14.115918460896864,
+              "sharpeLike": -0.40778392875410435,
+              "turnover": 820,
+              "maxDrawdownPct": 0.42601414728786546
+            },
+            "meanrev-1": {
+              "pnl": 114.10558864100676,
+              "sharpeLike": 0.7567086380312448,
+              "turnover": 176,
+              "maxDrawdownPct": 0.8726638514998197
+            },
+            "marketmaker-1": {
+              "pnl": 49.37011940355478,
+              "sharpeLike": 0.2441223260784747,
+              "turnover": 1510,
+              "maxDrawdownPct": 1.8393818144289482
+            }
+          }
+        },
+        {
+          "seed": 14,
+          "agents": {
+            "noise-1": {
+              "pnl": -158.51989715117998,
+              "sharpeLike": -0.6268948484594521,
+              "turnover": 3534,
+              "maxDrawdownPct": 4.55828910889216
+            },
+            "noise-2": {
+              "pnl": -318.7410410120665,
+              "sharpeLike": -1.3888045741145032,
+              "turnover": 3676,
+              "maxDrawdownPct": 4.553095575418335
+            },
+            "noise-3": {
+              "pnl": -236.80708813917045,
+              "sharpeLike": -0.9907530651165598,
+              "turnover": 3695,
+              "maxDrawdownPct": 3.613524148251875
+            },
+            "momentum-1": {
+              "pnl": -24.240356845190036,
+              "sharpeLike": -0.7240801061486296,
+              "turnover": 840,
+              "maxDrawdownPct": 0.4761197495016311
+            },
+            "meanrev-1": {
+              "pnl": -294.47497439066865,
+              "sharpeLike": -1.102364077863802,
+              "turnover": 132,
+              "maxDrawdownPct": 3.0123513812807916
+            },
+            "marketmaker-1": {
+              "pnl": 118.05553224324103,
+              "sharpeLike": 0.4770545937387799,
+              "turnover": 1418,
+              "maxDrawdownPct": 1.1251372383479978
+            }
+          }
+        },
+        {
+          "seed": 15,
+          "agents": {
+            "noise-1": {
+              "pnl": 116.5820667569169,
+              "sharpeLike": 0.47143465751728864,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.4902517854987616
+            },
+            "noise-2": {
+              "pnl": 231.60767970563393,
+              "sharpeLike": 1.0495588514265608,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.9063702453418254
+            },
+            "noise-3": {
+              "pnl": 146.28866143281812,
+              "sharpeLike": 0.6146930041602112,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.9259030617937465
+            },
+            "momentum-1": {
+              "pnl": -44.215858707286316,
+              "sharpeLike": -1.3907071217413063,
+              "turnover": 821,
+              "maxDrawdownPct": 0.4632545182319951
+            },
+            "meanrev-1": {
+              "pnl": -77.31685397815272,
+              "sharpeLike": -0.3403547218290646,
+              "turnover": 131,
+              "maxDrawdownPct": 2.0737006083154164
+            },
+            "marketmaker-1": {
+              "pnl": 74.6350389952404,
+              "sharpeLike": 0.3184157057981622,
+              "turnover": 1460,
+              "maxDrawdownPct": 1.5542754636438763
+            }
+          }
+        },
+        {
+          "seed": 16,
+          "agents": {
+            "noise-1": {
+              "pnl": -223.4879737829342,
+              "sharpeLike": -0.8708478662005492,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.6929100735044162
+            },
+            "noise-2": {
+              "pnl": -72.44057702984355,
+              "sharpeLike": -0.31451840674729903,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.1497542368600566
+            },
+            "noise-3": {
+              "pnl": 83.30868754080802,
+              "sharpeLike": 0.33952112335502094,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.1233842610399607
+            },
+            "momentum-1": {
+              "pnl": -38.270717547797176,
+              "sharpeLike": -1.0981039011711138,
+              "turnover": 911,
+              "maxDrawdownPct": 0.45981414090339723
+            },
+            "meanrev-1": {
+              "pnl": -84.4767730144631,
+              "sharpeLike": -0.30755481518986555,
+              "turnover": 130,
+              "maxDrawdownPct": 2.3120078707449867
+            },
+            "marketmaker-1": {
+              "pnl": 372.87223566064495,
+              "sharpeLike": 2.1716996679582166,
+              "turnover": 1502,
+              "maxDrawdownPct": 0.40285092087425184
+            }
+          }
+        },
+        {
+          "seed": 17,
+          "agents": {
+            "noise-1": {
+              "pnl": 88.87025037084459,
+              "sharpeLike": 0.3526993088010952,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.3426261293468988
+            },
+            "noise-2": {
+              "pnl": -13.734249636412642,
+              "sharpeLike": -0.06075031926177574,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.2445704073450379
+            },
+            "noise-3": {
+              "pnl": -149.96303244098453,
+              "sharpeLike": -0.64057895111753,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.9644706818222928
+            },
+            "momentum-1": {
+              "pnl": -69.97982952829443,
+              "sharpeLike": -2.4438106681596,
+              "turnover": 811,
+              "maxDrawdownPct": 0.7637291805599189
+            },
+            "meanrev-1": {
+              "pnl": 78.63743890777187,
+              "sharpeLike": 0.568070296604413,
+              "turnover": 109,
+              "maxDrawdownPct": 0.7293373170304019
+            },
+            "marketmaker-1": {
+              "pnl": 61.28364084590248,
+              "sharpeLike": 0.2926874235801004,
+              "turnover": 1450,
+              "maxDrawdownPct": 1.1163828542317304
+            }
+          }
+        },
+        {
+          "seed": 18,
+          "agents": {
+            "noise-1": {
+              "pnl": -129.41354664673054,
+              "sharpeLike": -0.5105006219856942,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.3320415066562012
+            },
+            "noise-2": {
+              "pnl": 275.327111971319,
+              "sharpeLike": 1.210793756329122,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.6319364959447248
+            },
+            "noise-3": {
+              "pnl": 146.19035471795178,
+              "sharpeLike": 0.6057602794759178,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.029920509594405
+            },
+            "momentum-1": {
+              "pnl": -29.735858212394305,
+              "sharpeLike": -0.9303412352792174,
+              "turnover": 767,
+              "maxDrawdownPct": 0.41532155680292615
+            },
+            "meanrev-1": {
+              "pnl": -168.54553346991452,
+              "sharpeLike": -0.7826953167034427,
+              "turnover": 86,
+              "maxDrawdownPct": 2.1266307773118993
+            },
+            "marketmaker-1": {
+              "pnl": -33.28096283375271,
+              "sharpeLike": -0.14194823483309374,
+              "turnover": 1420,
+              "maxDrawdownPct": 1.5106883072334831
+            }
+          }
+        },
+        {
+          "seed": 19,
+          "agents": {
+            "noise-1": {
+              "pnl": -311.8021799701928,
+              "sharpeLike": -1.2270353649239578,
+              "turnover": 3534,
+              "maxDrawdownPct": 3.6594311373034385
+            },
+            "noise-2": {
+              "pnl": 111.40931241540966,
+              "sharpeLike": 0.49096863336812546,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.0537605075452503
+            },
+            "noise-3": {
+              "pnl": 286.42503835237767,
+              "sharpeLike": 1.1970455042120445,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.6883491948616904
+            },
+            "momentum-1": {
+              "pnl": -50.02368775483228,
+              "sharpeLike": -1.5194731974668998,
+              "turnover": 870,
+              "maxDrawdownPct": 0.5769579680144808
+            },
+            "meanrev-1": {
+              "pnl": -19.759044408372574,
+              "sharpeLike": -0.10107178376405136,
+              "turnover": 131,
+              "maxDrawdownPct": 1.6327370489087198
+            },
+            "marketmaker-1": {
+              "pnl": 312.63916116614746,
+              "sharpeLike": 1.352199178692346,
+              "turnover": 1374,
+              "maxDrawdownPct": 1.1966349615288046
+            }
+          }
+        },
+        {
+          "seed": 20,
+          "agents": {
+            "noise-1": {
+              "pnl": 74.10869005758104,
+              "sharpeLike": 0.2964402490211148,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.322309298486997
+            },
+            "noise-2": {
+              "pnl": 53.835796250683416,
+              "sharpeLike": 0.23895014873203002,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.561128612204829
+            },
+            "noise-3": {
+              "pnl": 176.4460632217415,
+              "sharpeLike": 0.7363668887921586,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.3647733413043877
+            },
+            "momentum-1": {
+              "pnl": -60.545817346222975,
+              "sharpeLike": -1.939847468411549,
+              "turnover": 855,
+              "maxDrawdownPct": 0.635570143123347
+            },
+            "meanrev-1": {
+              "pnl": -11.04098244413035,
+              "sharpeLike": -0.04353612702459352,
+              "turnover": 118,
+              "maxDrawdownPct": 1.2373495253547389
+            },
+            "marketmaker-1": {
+              "pnl": 171.82734858877848,
+              "sharpeLike": 0.7097852093312306,
+              "turnover": 1428,
+              "maxDrawdownPct": 1.24398427204239
+            }
+          }
+        },
+        {
+          "seed": 21,
+          "agents": {
+            "noise-1": {
+              "pnl": -171.81165360819432,
+              "sharpeLike": -0.6826693065260989,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.1285039658903906
+            },
+            "noise-2": {
+              "pnl": 117.87409691014909,
+              "sharpeLike": 0.523668156748569,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.6079964850375728
+            },
+            "noise-3": {
+              "pnl": 99.07440630560632,
+              "sharpeLike": 0.4223680432983716,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.4039209248090172
+            },
+            "momentum-1": {
+              "pnl": -52.13677291559361,
+              "sharpeLike": -1.6147642562471558,
+              "turnover": 853,
+              "maxDrawdownPct": 0.603875197138779
+            },
+            "meanrev-1": {
+              "pnl": 111.21276119912363,
+              "sharpeLike": 0.68566598872387,
+              "turnover": 161,
+              "maxDrawdownPct": 0.4757741414970559
+            },
+            "marketmaker-1": {
+              "pnl": -152.02154584471282,
+              "sharpeLike": -0.6249471033778858,
+              "turnover": 1410,
+              "maxDrawdownPct": 1.9961694313406164
+            }
+          }
+        },
+        {
+          "seed": 22,
+          "agents": {
+            "noise-1": {
+              "pnl": -48.60458971810658,
+              "sharpeLike": -0.19122966069290173,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.8989807002385322
+            },
+            "noise-2": {
+              "pnl": -7.752527630649638,
+              "sharpeLike": -0.03482550698475471,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.2661301544822205
+            },
+            "noise-3": {
+              "pnl": 92.62892652786468,
+              "sharpeLike": 0.39740421783600915,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.3089987731121846
+            },
+            "momentum-1": {
+              "pnl": -42.94645750931704,
+              "sharpeLike": -1.3426986068219449,
+              "turnover": 818,
+              "maxDrawdownPct": 0.48427470792909466
+            },
+            "meanrev-1": {
+              "pnl": 99.13939772045705,
+              "sharpeLike": 0.44316807215186627,
+              "turnover": 113,
+              "maxDrawdownPct": 1.1244789096830476
+            },
+            "marketmaker-1": {
+              "pnl": -57.88485625274188,
+              "sharpeLike": -0.3096387479033986,
+              "turnover": 1450,
+              "maxDrawdownPct": 1.0117532707894792
+            }
+          }
+        },
+        {
+          "seed": 23,
+          "agents": {
+            "noise-1": {
+              "pnl": -154.5338504325864,
+              "sharpeLike": -0.6191713969769722,
+              "turnover": 3534,
+              "maxDrawdownPct": 2.7493813638960307
+            },
+            "noise-2": {
+              "pnl": -32.69213344110722,
+              "sharpeLike": -0.1467005655186452,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.01313832395898
+            },
+            "noise-3": {
+              "pnl": 149.182713264634,
+              "sharpeLike": 0.6352071114931829,
+              "turnover": 3695,
+              "maxDrawdownPct": 0.7998694613413968
+            },
+            "momentum-1": {
+              "pnl": -2.9430741831583873,
+              "sharpeLike": -0.08422428022660325,
+              "turnover": 876,
+              "maxDrawdownPct": 0.2542570135500905
+            },
+            "meanrev-1": {
+              "pnl": 64.9979073241957,
+              "sharpeLike": 0.3456281978884199,
+              "turnover": 188,
+              "maxDrawdownPct": 1.7237959858657965
+            },
+            "marketmaker-1": {
+              "pnl": 98.44304907893275,
+              "sharpeLike": 0.45894866401368256,
+              "turnover": 1504,
+              "maxDrawdownPct": 1.3231008526700216
+            }
+          }
+        },
+        {
+          "seed": 24,
+          "agents": {
+            "noise-1": {
+              "pnl": -23.890230916824294,
+              "sharpeLike": -0.09498736819437124,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.69208039501349
+            },
+            "noise-2": {
+              "pnl": 109.85996773821171,
+              "sharpeLike": 0.4823300381447212,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.218351410263515
+            },
+            "noise-3": {
+              "pnl": -8.371915586969408,
+              "sharpeLike": -0.03440836454771762,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.471797019311475
+            },
+            "momentum-1": {
+              "pnl": -85.03110908555391,
+              "sharpeLike": -3.021559266236879,
+              "turnover": 831,
+              "maxDrawdownPct": 0.8942359477692934
+            },
+            "meanrev-1": {
+              "pnl": -3.6489706273823685,
+              "sharpeLike": -0.03128023489782105,
+              "turnover": 80,
+              "maxDrawdownPct": 0.9774170899483811
+            },
+            "marketmaker-1": {
+              "pnl": 251.73076034370933,
+              "sharpeLike": 1.0618612638603409,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.9277232748036419
+            }
+          }
+        },
+        {
+          "seed": 25,
+          "agents": {
+            "noise-1": {
+              "pnl": 133.0869386208742,
+              "sharpeLike": 0.5324014579656612,
+              "turnover": 3534,
+              "maxDrawdownPct": 0.8401634498036553
+            },
+            "noise-2": {
+              "pnl": -95.70888816578372,
+              "sharpeLike": -0.4287244415353496,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.538086688114617
+            },
+            "noise-3": {
+              "pnl": -147.07582677717073,
+              "sharpeLike": -0.6299370704630423,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.0435339885077086
+            },
+            "momentum-1": {
+              "pnl": -63.74346936274196,
+              "sharpeLike": -2.080939249725506,
+              "turnover": 851,
+              "maxDrawdownPct": 0.6917965833669013
+            },
+            "meanrev-1": {
+              "pnl": -80.1121813382797,
+              "sharpeLike": -0.3791071678299928,
+              "turnover": 96,
+              "maxDrawdownPct": 1.2016275711530915
+            },
+            "marketmaker-1": {
+              "pnl": 166.6101114015728,
+              "sharpeLike": 1.18152952544879,
+              "turnover": 1520,
+              "maxDrawdownPct": 0.4405326093205531
+            }
+          }
+        },
+        {
+          "seed": 26,
+          "agents": {
+            "noise-1": {
+              "pnl": -167.1868419735365,
+              "sharpeLike": -0.6729486189537144,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.956394674525239
+            },
+            "noise-2": {
+              "pnl": 34.553835573136894,
+              "sharpeLike": 0.15606050335990942,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.2892662290373187
+            },
+            "noise-3": {
+              "pnl": 182.30529242797638,
+              "sharpeLike": 0.7894145317806246,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.3529563728153384
+            },
+            "momentum-1": {
+              "pnl": -75.68654342940317,
+              "sharpeLike": -2.5108193847557967,
+              "turnover": 855,
+              "maxDrawdownPct": 0.7644348424883215
+            },
+            "meanrev-1": {
+              "pnl": 147.69845318173248,
+              "sharpeLike": 1.2228006836689969,
+              "turnover": 141,
+              "maxDrawdownPct": 0.5063366422910385
+            },
+            "marketmaker-1": {
+              "pnl": 212.22097094807395,
+              "sharpeLike": 0.7878860344069635,
+              "turnover": 1532,
+              "maxDrawdownPct": 1.011253085085028
+            }
+          }
+        },
+        {
+          "seed": 27,
+          "agents": {
+            "noise-1": {
+              "pnl": -25.229788838216336,
+              "sharpeLike": -0.09965722904926856,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.7719243271113392
+            },
+            "noise-2": {
+              "pnl": 182.10529030369253,
+              "sharpeLike": 0.8142815585440139,
+              "turnover": 3676,
+              "maxDrawdownPct": 0.7629039115196
+            },
+            "noise-3": {
+              "pnl": 69.8668785876489,
+              "sharpeLike": 0.2941665966246732,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.1190778534434538
+            },
+            "momentum-1": {
+              "pnl": -57.83808076382775,
+              "sharpeLike": -1.8800222460821534,
+              "turnover": 815,
+              "maxDrawdownPct": 0.6749152565257849
+            },
+            "meanrev-1": {
+              "pnl": -159.44639346246913,
+              "sharpeLike": -0.6672403013490802,
+              "turnover": 91,
+              "maxDrawdownPct": 2.4930437276039705
+            },
+            "marketmaker-1": {
+              "pnl": -156.37654688793737,
+              "sharpeLike": -0.6661580236456771,
+              "turnover": 1336,
+              "maxDrawdownPct": 2.4647317939197286
+            }
+          }
+        },
+        {
+          "seed": 28,
+          "agents": {
+            "noise-1": {
+              "pnl": -6.5218076998207835,
+              "sharpeLike": -0.026073067860862355,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.6423280028574503
+            },
+            "noise-2": {
+              "pnl": -153.98151214051722,
+              "sharpeLike": -0.6773835269805099,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.6942192624545056
+            },
+            "noise-3": {
+              "pnl": -56.70102823138586,
+              "sharpeLike": -0.24178636445289184,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.8948459291518809
+            },
+            "momentum-1": {
+              "pnl": -75.3595894312839,
+              "sharpeLike": -2.523066200597899,
+              "turnover": 853,
+              "maxDrawdownPct": 0.8153825826781353
+            },
+            "meanrev-1": {
+              "pnl": 6.924263278911894,
+              "sharpeLike": 0.051523154384311196,
+              "turnover": 96,
+              "maxDrawdownPct": 1.0648873335757898
+            },
+            "marketmaker-1": {
+              "pnl": 74.66075797978192,
+              "sharpeLike": 0.3358230743858376,
+              "turnover": 1424,
+              "maxDrawdownPct": 1.3931673617711213
+            }
+          }
+        },
+        {
+          "seed": 29,
+          "agents": {
+            "noise-1": {
+              "pnl": 173.40411224311902,
+              "sharpeLike": 0.698294816583519,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.2685485721203842
+            },
+            "noise-2": {
+              "pnl": -76.37380603816564,
+              "sharpeLike": -0.34729254902997925,
+              "turnover": 3676,
+              "maxDrawdownPct": 2.764526616722235
+            },
+            "noise-3": {
+              "pnl": -97.31255159600369,
+              "sharpeLike": -0.42207089660476416,
+              "turnover": 3695,
+              "maxDrawdownPct": 2.161887903757938
+            },
+            "momentum-1": {
+              "pnl": -25.062554195910707,
+              "sharpeLike": -0.8057065423720696,
+              "turnover": 775,
+              "maxDrawdownPct": 0.4073112838181431
+            },
+            "meanrev-1": {
+              "pnl": 48.92882290964371,
+              "sharpeLike": 0.16778274819446928,
+              "turnover": 118,
+              "maxDrawdownPct": 2.2773032676672136
+            },
+            "marketmaker-1": {
+              "pnl": 112.87358295765807,
+              "sharpeLike": 0.6575085037831636,
+              "turnover": 1448,
+              "maxDrawdownPct": 0.6604545087346498
+            }
+          }
+        },
+        {
+          "seed": 30,
+          "agents": {
+            "noise-1": {
+              "pnl": 44.89768044091943,
+              "sharpeLike": 0.1818331244182126,
+              "turnover": 3534,
+              "maxDrawdownPct": 1.3045820590982982
+            },
+            "noise-2": {
+              "pnl": -108.9617170807087,
+              "sharpeLike": -0.4926814480192717,
+              "turnover": 3676,
+              "maxDrawdownPct": 1.3779975586892073
+            },
+            "noise-3": {
+              "pnl": 36.897273271355516,
+              "sharpeLike": 0.15828555341711653,
+              "turnover": 3695,
+              "maxDrawdownPct": 1.315060011985292
+            },
+            "momentum-1": {
+              "pnl": -55.86641951650563,
+              "sharpeLike": -1.8303694794951793,
+              "turnover": 825,
+              "maxDrawdownPct": 0.6859196538621629
+            },
+            "meanrev-1": {
+              "pnl": -10.797017095836054,
+              "sharpeLike": -0.04770865404363419,
+              "turnover": 109,
+              "maxDrawdownPct": 1.3849398107822763
+            },
+            "marketmaker-1": {
+              "pnl": 279.5405845795485,
+              "sharpeLike": 1.5007961189804893,
+              "turnover": 1446,
+              "maxDrawdownPct": 0.541935180548215
+            }
+          }
+        }
+      ],
+      "aggregated": {
+        "noise-1": {
+          "meanSharpeLike": -0.11316179859095185,
+          "ci95SharpeLike": 0.254632141580826,
+          "meanPnl": -28.904585435926005,
+          "ci95Pnl": 64.3117877002193,
+          "meanTurnover": 3534,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 2.0631676952773983
+        },
+        "noise-2": {
+          "meanSharpeLike": 0.010736457592893149,
+          "ci95SharpeLike": 0.21391656539173284,
+          "meanPnl": 2.398071680247631,
+          "ci95Pnl": 48.407002388371026,
+          "meanTurnover": 3676,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 1.7360675633349254
+        },
+        "noise-3": {
+          "meanSharpeLike": 0.05202902659010834,
+          "ci95SharpeLike": 0.23080270604280517,
+          "meanPnl": 12.301122148964653,
+          "ci95Pnl": 55.129164433095475,
+          "meanTurnover": 3695,
+          "ci95Turnover": 0,
+          "meanMaxDrawdownPct": 1.7086994654796008
+        },
+        "momentum-1": {
+          "meanSharpeLike": -1.69186213981408,
+          "ci95SharpeLike": 0.2645580569476769,
+          "meanPnl": -51.805288728596196,
+          "ci95Pnl": 7.478158852741366,
+          "meanTurnover": 831.5333333333333,
+          "ci95Turnover": 14.138675511732123,
+          "meanMaxDrawdownPct": 0.606312754833907
+        },
+        "meanrev-1": {
+          "meanSharpeLike": 0.10160535432754626,
+          "ci95SharpeLike": 0.22185646674109513,
+          "meanPnl": -3.8406725187813207,
+          "ci95Pnl": 34.974601922774696,
+          "meanTurnover": 113.93333333333334,
+          "ci95Turnover": 11.117236890371114,
+          "meanMaxDrawdownPct": 1.2988561349770897
+        },
+        "marketmaker-1": {
+          "meanSharpeLike": 0.5563447062785768,
+          "ci95SharpeLike": 0.24279021552409355,
+          "meanPnl": 110.50912537485316,
+          "ci95Pnl": 48.18567464312744,
+          "meanTurnover": 1434.6,
+          "ci95Turnover": 18.40769540227642,
+          "meanMaxDrawdownPct": 1.1470967325934494
+        }
+      }
+    }
+  ]
+}
