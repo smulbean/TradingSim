@@ -4,6 +4,10 @@
 
 This is a multi-agent market simulator designed to study how trading strategies behave under uncertainty, transaction costs, and competition. The simulator models a market with hidden structure: a latent fair value process that evolves according to regime-dependent dynamics, observed only through noisy price signals.
 
+## Paper
+
+This repository accompanies a research paper included as `paper.pdf` in the project root. The paper contains the full methodology, experimental results, and discussion; see [paper.pdf](paper.pdf) for details.
+
 Agents operate with partial information, facing transaction costs, inventory constraints, and leverage limits. The goal is to understand how different strategy types perform under various market regimes (trend, mean-reversion, chop) and how competition and costs affect expected returns.
 
 This is a research sandbox for studying incentives and expected value in a controlled environment. It is not calibrated to real market data and makes no claims about predictive power or real-world trading performance.
